@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "jsonresume-theme-orbit-original": "^2.0.0",
+    "jsonresume-theme-stackoverflow": "^2.0.2",
     "resumed": "^3.0.1"
   }
 }
