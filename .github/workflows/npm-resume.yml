@@ -62,8 +62,8 @@ jobs:
         run: npm install
 
       - name: Install resume
-        #run: npx resumed render resume.json --theme jsonresume-theme-orbit-original
-        run: npx resumed render resume.json --theme jsonresume-theme-stackoverflow
+        run: npx resumed render resume.json --theme jsonresume-theme-orbit-original
+        #run: npx resumed render resume.json --theme jsonresume-theme-stackoverflow
 
       - name: Display event name 
         run: echo "github.event_name=${{ github.event_name }}"
