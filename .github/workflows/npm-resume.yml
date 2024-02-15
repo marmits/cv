@@ -31,6 +31,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: authentification
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
@@ -52,7 +57,7 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-
+     
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -61,6 +66,7 @@ jobs:
       - name: Install
         run: npm install
 
+      
       - name: Install resume
         run: npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
         #run: npx resumed render resume.json --theme jsonresume-theme-stackoverflow
