@@ -18,6 +18,7 @@ npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
 
 2. Dans le projet:  
    `npm link jsonresume-theme-stackoverflowmar`
+   >Lorsque vous exécutez npm link <module_name> dans le répertoire d'un projet, npm crée un lien symbolique de ./node_modules/<module_name> vers <global_node_modules>/<module_name>.
 
 3. Installation  
    `npm install`
