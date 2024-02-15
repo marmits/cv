@@ -58,16 +58,16 @@ jobs:
         with:
           node-version: 20
 
+      - name: authentification
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       
 
       - name: Install
         run: npm install
 
-      - name: authentification
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
+      
       - name: Install resume
         run: npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
         #run: npx resumed render resume.json --theme jsonresume-theme-stackoverflow
