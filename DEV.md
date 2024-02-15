@@ -51,5 +51,11 @@ details:
 }
 ```
 
+#### JSON Resume PDF
+```
+npm install -g resume-cli
+resume export resume.pdf --theme=jsonresume-theme-stackoverflowmar
+```
+
 #### source
 [@alexishevia](https://medium.com/@alexishevia/the-magic-behind-npm-link-d94dcb3a81af)
