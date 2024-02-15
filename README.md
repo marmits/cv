@@ -6,6 +6,7 @@
 - [setup-node](https://github.com/actions/setup-node)
 - [upload-pages-artifact](https://github.com/actions/upload-pages-artifact)  
 - [deploy-pages](https://github.com/actions/deploy-pages)
+- [ssh-agent](https://github.com/webfactory/ssh-agent)
 
 ex: [how-to-deploy-pages-on-github-using-actions](https://medium.com/@mpaternostro/how-to-deploy-pages-on-github-using-actions-a9281d03b345)
 
