@@ -4,6 +4,9 @@
 npm install git+https://github.com/marmits/jsonresume-theme-stackoverflowmar  
 npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
 
+### EN MODE LOCAL
+voir [branch dev](https://github.com/marmits/cv/blob/dev/DEV.md)
+
 ## GIHUB actions (workflows)
 ### SSH
 Lorsque vous exécutez un workflow GitHub Action pour préparer votre projet, exécuter des tests ou créer des images,  
