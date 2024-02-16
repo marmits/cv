@@ -66,9 +66,6 @@ jobs:
       - name: Install
         run: npm install
 
-      - name: update bundle
-        run: npm install -g git+https://github.com/marmits/jsonresume-theme-stackoverflowmar#1.0.0
-
       - name: Install resume
         run: npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
 
