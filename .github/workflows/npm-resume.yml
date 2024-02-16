@@ -66,10 +66,15 @@ jobs:
       - name: Install
         run: npm install
 
-      
       - name: Install resume
         run: npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
         #run: npx resumed render resume.json --theme jsonresume-theme-stackoverflow
+
+      - name: Install resume-cli
+        run: npm install -g resume-cli
+
+      - name: Convert pdf
+        run: resume export resume.pdf --theme=jsonresume-theme-stackoverflowmar        
 
       - name: Display event name 
         run: echo "github.event_name=${{ github.event_name }}"
