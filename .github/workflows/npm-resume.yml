@@ -65,6 +65,10 @@ jobs:
 
       - name: Install
         run: npm install
+      - name: rebuild
+        run: npm rebuild && npm run prepare --if-present
+
+        
 
       - name: Install resume
         run: npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
