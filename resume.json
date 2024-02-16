@@ -12,6 +12,11 @@
       "countryCode": "FR",
       "address": "essaitest"
     },
+    "birth": {
+      "place": "Soissons",
+      "state": "France",
+      "date": "1977-05-02"
+    },
     "profiles": [
       {
         "network": "LinkedIn",
