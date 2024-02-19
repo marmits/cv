@@ -1,0 +1,597 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Yoan Bernabeu",
+    "label": "Chef de Projets & Développeur Symfony | Bâtisseur de Solutions Web | Formateur & Youtubeur Passionné",
+    "image": "",
+    "email": "",
+    "phone": "",
+    "url": "",
+    "summary": "✋ Bonjour ! Je suis Yoan Bernabeu.\n\n🌞 Développeur Web Freelance, Lead Dev, Chef de Projets, Formateur indépendant, Youtubeur - je navigue dans l'univers du développement web avec une curiosité insatiable et une approche résolument optimiste.\n\nFort de près de 20 ans d'expérience dans le secteur informatique, j'ai exploré une multitude de domaines, de la gestion de la demande à la gestion de parc, en passant par le déploiement en masse d'applications et la mise en œuvre de solutions cloud.\n\nQuelques jalons marquants de mon parcours :\n\n- Lead Dev sur le backend d'un SaaS révolutionnaire dans le secteur agricole (en freelance)\n\n- Instigateur de la culture DevOps chez Alpes Isère Habitat, une transformation profonde et réussie (en tant que salarié)\n\n- Créateur d'une chaîne YouTube dédiée au monde du développement Symfony, avec plus de 15 000 abonné·e·s et plus d'un million de vues cumulées\n\n- Mise sur pied de formations exclusives disponibles sur ma propre plateforme\n\n🏔️ Hors du monde digital, je suis un amoureux de la montagne, un avide lecteur et un aventurier dans l'âme. Ces passions nourrissent ma créativité et mon désir d'explorer de nouveaux horizons, tant dans ma vie personnelle que professionnelle.\n\n💡 Pour moi, chaque projet est une aventure, une occasion d'enrichir mes connaissances et de développer de nouvelles compétences. Je crois fermement que la collaboration, le partage et la coopération sont les clés pour trouver des solutions à tous les problèmes.\n\nJe suis toujours prêt à relever de nouveaux défis en équipe - parce qu'un projet sans équipe, ce n'est pas un vrai projet. Que ce soit en tant que chef de projet, Product Owner ou développeur, je m'investis pleinement pour atteindre les objectifs fixés, ensemble.",
+    "location": {
+      "countryCode": "FR",
+      "address": "France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "yoan-bernabeu",
+        "url": "https://www.linkedin.com/in/yoan-bernabeu/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "YoanDev",
+      "position": "Lead Dev",
+      "startDate": "2022-06-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "Lead Dev (Backend) pour un projet de SaaS dans le milieu de l'agriculture :\n👀 Choix et conception d'architecture\n🚀 Mise en place Workflow de travail (GitOps, Gitlab Flow)\n♾️ Évangélisation de l'approche DevOps (CI/CD, Docker, Partage, Code review, Pair Programming ...)\n☁️ Déploiement d'infrastructure Cloud\n📈 Aide à la sélection de solutions tiers (DBaaS, Signature Electronique, Stockage ...)\n📝 Préconisation sur la gestion de l'observabilité, sauvegardes ....",
+      "url": "https://www.linkedin.com/company/yoandev/"
+    },
+    {
+      "name": "YoanDev",
+      "position": "Formateur indépendant",
+      "startDate": "2021-09-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "👨‍💻 Formation Symfony 7\n🦊 Formation CI/CD pour les Devs\n🐧 Environnement de Dev Linux/Docker\n📹 Tutos sur YouTube\n👔 Formation sûr-mesure\n👥 Session de mentorat",
+      "url": "https://www.linkedin.com/company/yoandev/",
+      "location": "formation.yoandev.co"
+    },
+    {
+      "name": "YoanDev",
+      "position": "Développeur Web",
+      "startDate": "2020-11-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "📃 Audit CI/CD\n👥 Lead Dev\n👨‍💻 Développement PHP/Symfony\n☁️ Déploiement Cloud\n👴 Améliorations de Legacy",
+      "url": "https://www.linkedin.com/company/yoandev/"
+    },
+    {
+      "name": "YoanDev",
+      "position": "Youtubeur",
+      "startDate": "2020-11-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "👥 15k abonnés\n👀 1 000 000 vues\n📹 Plus de 170 vidéos",
+      "url": "https://www.linkedin.com/company/yoandev/"
+    },
+    {
+      "name": "Alpes Isère Habitat",
+      "position": "Chef de projets",
+      "startDate": "2019-11-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "👷 Gestion de projets IT\n☁️ Déploiement d'infrastructures Cloud\n🔃 Animation DevOps\n🦊 Pipelines CI/CD\n 👉 Développement d'applications Métiers (Symfony)",
+      "url": "https://www.linkedin.com/company/alpesiserehabitat/"
+    },
+    {
+      "name": "Alpes Isère Habitat",
+      "position": "Technicien informatique",
+      "startDate": "2008-01-31",
+      "endDate": "2019-11-30",
+      "highlights": [],
+      "summary": "👷 Gestion de projets\n🖥️ Gestion de parc (BMC)\n📞 Gestion de la demande (IWS)\n🚨 Stratégie de mises à jours\n🔗 Mise en place de GPO\n🔑 Mise en place KMS",
+      "url": "https://www.linkedin.com/company/alpesiserehabitat/",
+      "location": "Grenoble"
+    },
+    {
+      "name": "OpenClassrooms",
+      "position": "Mentor OpenClassrooms",
+      "startDate": "2020-11-30",
+      "endDate": "",
+      "highlights": [],
+      "summary": "👨‍💻 Mentor sur le parcours Symfony\n💻 Mentor sur le parcours Technicien Informatique",
+      "url": "https://www.linkedin.com/school/openclassrooms/"
+    },
+    {
+      "name": "Capgemini",
+      "position": "Technicien support",
+      "startDate": "2007-12-31",
+      "endDate": "2008-12-31",
+      "highlights": [],
+      "summary": "👀 Pour Cap Gemini via ACO GROUPE (pour Schneider).\n📞 Support de niveau 2 (Office et Lotus Notes).\n➡️ Transfert de compétences pour les équipes polonaises.",
+      "url": "https://www.linkedin.com/company/capgemini/",
+      "location": "Montbonnot"
+    },
+    {
+      "name": "GEA - Grenobloise d'Electronique et d'Automatismes",
+      "position": "Technicien informatique",
+      "startDate": "2007-12-31",
+      "endDate": "2008-12-31",
+      "highlights": [],
+      "summary": "👨‍💻 Développement de scripts d'exploitation.\n⚡ Mise en place d'une plateforme Web (Wordpress) de partage de la connaissance.",
+      "url": "https://www.linkedin.com/company/gea-grenobloise-delectronique-et-dautomatismes/",
+      "location": "Meylan"
+    },
+    {
+      "name": "Getronics",
+      "position": "Technicien support",
+      "startDate": "2006-12-31",
+      "endDate": "2007-12-31",
+      "highlights": [],
+      "summary": "📞 Support pour BIOMERIEUX.\n👨‍💻 Développement d'une interface web de gestion des messages sur répondeurs.",
+      "url": "https://www.linkedin.com/company/getronics/",
+      "location": "Echirolles"
+    },
+    {
+      "name": "Conseil Général de la Drôme",
+      "position": "Technicien informatique",
+      "startDate": "2004-12-31",
+      "endDate": "2006-12-31",
+      "highlights": [],
+      "summary": "📺Pilotage du renouvellement du parc d’écrans sur tout le département.\n🔗 Projet de mise en place d'un outil de supervision des liens SDSL, avec alerte SMS.",
+      "url": "",
+      "location": "Valence"
+    },
+    {
+      "name": "IUFM DU PACIFIQUE",
+      "position": "Développeur php",
+      "startDate": "2003-12-31",
+      "endDate": "2003-12-31",
+      "highlights": [],
+      "summary": "👨‍💻 Mise en place d'une maquette PHP/MySQL pour un portail de pré-inscription des étudiants.",
+      "url": "",
+      "location": "Nouméa"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "FESTIVAL NEZ ROUGE 38",
+      "position": "Trésorier",
+      "startDate": "2008-12-31",
+      "endDate": "2012-12-31",
+      "summary": "Organisation de concerts",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/48713582"
+    },
+    {
+      "organization": "FOCUS GRENOBLE",
+      "position": "Président",
+      "startDate": "2009-12-31",
+      "endDate": "2010-12-31",
+      "summary": "Création de l'association et organisation d'expositions de photographies",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/50602933"
+    },
+    {
+      "organization": "AMU",
+      "position": "Manager de communauté",
+      "startDate": "2015-12-31",
+      "endDate": "",
+      "summary": "Animation des RS  (Facebook et Twitter)\nProduction visuels et articles.\nGestion et animation du site internet.",
+      "highlights": [],
+      "url": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "OpenClassrooms",
+      "area": "Programmation / développeur informatique, général",
+      "studyType": "RNCP - Développeur d'application (PHP / Symfony)",
+      "startDate": "2019-12-31",
+      "endDate": "2020-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "MFR Saint-Egrève",
+      "area": "Informatique - Administrateur Réseaux",
+      "studyType": "BTS Informatique de Gestion : Administrateur Réseaux",
+      "startDate": "2004-12-31",
+      "endDate": "2006-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Marius Bouvier",
+      "area": "Technologie / technicien en informatique",
+      "studyType": "Bac pro MRIM",
+      "startDate": "2002-12-31",
+      "endDate": "2004-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "ITIL FOUNDATION",
+      "issuer": "AXELOS Global Best Practice",
+      "startDate": "2015-06-30"
+    },
+    {
+      "name": "Apprenez à apprendre",
+      "issuer": "OpenClassrooms",
+      "startDate": "2019-12-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/2735775895"
+    },
+    {
+      "name": "Apprenez à créer votre site web avec HTML5 et CSS3",
+      "issuer": "OpenClassrooms",
+      "startDate": "2019-08-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/7360861055"
+    },
+    {
+      "name": "Concevez votre site web avec PHP et MySQL",
+      "issuer": "OpenClassrooms",
+      "startDate": "2019-09-30",
+      "url": "https://openclassrooms.com/fr/course-certificates/6914987548"
+    },
+    {
+      "name": "Découvrez la méthodologie DevOps",
+      "issuer": "OpenClassrooms",
+      "startDate": "2019-09-30",
+      "url": "https://openclassrooms.com/fr/course-certificates/9397839555"
+    },
+    {
+      "name": "Créez un site moderne et professionnel avec WordPress 5",
+      "issuer": "OpenClassrooms",
+      "startDate": "2019-12-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/7536399020"
+    },
+    {
+      "name": "Gérez un projet digital avec une méthodologie en cascade",
+      "issuer": "OpenClassrooms",
+      "startDate": "2019-12-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/3801534760"
+    },
+    {
+      "name": "Gérez votre projet informatique facilement",
+      "issuer": "OpenClassrooms",
+      "startDate": "2019-12-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/8060784098"
+    },
+    {
+      "name": "Prenez en main Bootstrap",
+      "issuer": "OpenClassrooms",
+      "startDate": "2019-12-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/4852902694"
+    },
+    {
+      "name": "Découpez et intégrez une maquette",
+      "issuer": "OpenClassrooms",
+      "startDate": "2019-12-31",
+      "url": "https://openclassrooms.com/fr/course-certificates/3291766142"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Stratégie IT",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Pédagogie",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vidéo",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Active Directory",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ubuntu",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "gitlab",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Enseignement",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Azure",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Communication",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Windows Server",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mentorat",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "php",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "1&1",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gestion de projet logiciel",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Premiere Pro",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Symfony",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Développement de logiciels",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Empathie ",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Système d’opération",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "isilog",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Serveurs",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "iws",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Animation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gestion de projet",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "BMC",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Framework Symfony",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Assistance technique",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker ",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Administration système Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Administration système",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Administration des serveurs",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kanban",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Serveur Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gestion du changement",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Technologies de l’information",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "FileZilla",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Debian",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ITIL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Office 365",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "fr",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Formation : Découvrez Symfony 7 en 7 projets !",
+      "startDate": "2024-01-31",
+      "summary": "Cette formation s’adresse à toutes les personnes qui souhaitent découvrir Symfony 7, et qui souhaitent apprendre en créant des projets concrets.\n\nElle est taillée pour les débutants, mais également pour les personnes qui ont déjà des connaissances en Symfony, mais qui souhaitent découvrir les nouveautés de Symfony 7.",
+      "url": null,
+      "endDate": "2024-01-31"
+    },
+    {
+      "name": "HapplyPDF",
+      "startDate": "2023-12-31",
+      "summary": "Création d'une API NodeJS (Express) de fusion de documents .docx avec des données JSON vers des documents PDF.\n\nConstruite comme une alternative à des outils comme Docupilot, cette API permet la construction simple, y compris par les métiers, de template de génération de PDFs.",
+      "url": null,
+      "endDate": "2023-12-31"
+    },
+    {
+      "name": "HapplyAnnonce",
+      "startDate": "2023-01-31",
+      "summary": "Développement du Backend d'une application d'affichage de nos annonces immobilières avec le PO Christophe.\n\nFonctionnalité de recherche avancée, gestion des notifications aux critères de recherche.\n\nStack : Symfony, Postgres API Ubiflow.",
+      "url": null,
+      "endDate": "2023-01-31"
+    },
+    {
+      "name": "HapplyDiag",
+      "startDate": "2022-11-30",
+      "summary": "Conception et création d'une application de centralisation de certificats et diagnostiques énergétiques (Gaz et électricité).\n\nStack : Symfony Full Stack, Docker, API spécifiques des diagnostiqueurs.",
+      "url": null,
+      "endDate": "2022-11-30"
+    },
+    {
+      "name": "FarmPilot (SaaS)",
+      "startDate": "2022-06-30",
+      "summary": "Conception et développement d'une plateforme SaaS à destination des coopératives agricoles.\n\nGestion des campagnes de récolte : parcelles, type de cultures, contractualisation, signature électronique, reporting etc \n\nStack : Backend Symfony, Supabase, Postgresql.",
+      "url": null,
+      "endDate": "2022-06-30"
+    },
+    {
+      "name": "HapplyHab",
+      "startDate": "2022-06-30",
+      "summary": "Conception et création d'une application (API) de centralisation des habilitations a destination de nos applications internes.\n\nStack : Symfony, API MS Graph, SSO O365",
+      "url": null,
+      "endDate": "2022-06-30"
+    },
+    {
+      "name": "HapplyInfra",
+      "startDate": "2022-06-30",
+      "summary": "Création d'une application de centralisation de nos infrastructures cloud.\n\nÉtat en temps réel des environnements, scan des vulnérabilités Docker.\n\nDélégation de tâches d'arrêt et de démarrage, programmation de démarrage.\n\nStack : Symfony Full Stack, PicoCSS, Trivy, Docker, Jelastic.",
+      "url": null,
+      "endDate": "2022-06-30"
+    },
+    {
+      "name": "Cronify",
+      "startDate": "2022-03-31",
+      "summary": "Cronify is a simple tool to monitor the execution of your cron jobs.",
+      "url": "https://github.com/yoanbernabeu/Cronify",
+      "endDate": "2022-03-31"
+    },
+    {
+      "name": "HapplyCopro",
+      "startDate": "2022-01-31",
+      "summary": "Animation, conception et création d'un portail extranet à destination de nos Copropriétaires.\n\nStack : Symfony Full Stack, Bootstrap, RabbitMQ",
+      "url": null,
+      "endDate": "2022-01-31"
+    },
+    {
+      "name": "Roadmap Dev Symfony",
+      "startDate": "2021-10-31",
+      "summary": "Une Roadmap collaborative pour devenir un⸱e dev Symfony !\n\nLa version consultable est disponible à cette adresse : https://yoanbernabeu.github.io/Roadmap-Dev-Symfony/",
+      "url": "https://github.com/yoanbernabeu/Roadmap-Dev-Symfony",
+      "endDate": "2021-10-31"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

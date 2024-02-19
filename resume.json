@@ -2,15 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Geoffroy Stolaric",
-    "label": "temp99 Développeur web Back-End & Front-End - Full-Stack PHP 7/8 - Zend Framework - Symfony - Javascript.",
+    "label": "Développeur Full-Stack PHP / Javascript.",
     "image": "",
     "email": "geoffroy.stolaric@gmail.com",
     "phone": "+33623495457",
     "url": "https://www.codeur.fr",
-    "summary": "Développeur et optimisateur.\n(génération X): Dans le web depuis 1998.\n\nZend Framework - PHP.\nE-commerce.\nResponsive Web Design.\nHTML5. CSS3. Javascript.\nNodes.js React.js\n\nSEO (Search Engine Optimization) - Optimisation - Sémantique - Microformats & Microdata.\n\nEnvironnement Lamp - Mamp.\nHébergement systéme Linux, serveurs dédiés.\nAPI Restfull.\nPhotoshop & Illustrator.",
+    "summary": "J'évolue et je code dans le domaine web depuis 1998.\nMon expérience couvre de multiples activités comme la publicité, l'e-commerce, l'industrie, le secteur alimentaire en passant par la santé.\nJ'ai également exploré de nombreux domaines comme le multimédia, la maintenance, les dépoiements, la sécurité, le travail en collaboration, la coopération, les apis.\n\nMon stack technique est orienté essentiellement dans l'univers open source.\nMon environnement applicatif tourne autour de linux, du PHP (Symfony, Zend), du javascript (npm) et le SQL.\n\nJ'apprécie les défis, le travail en équipe, trouver et mettre en oeuvre des solutions, l'optimisation et exploiter les standards.\nJ'essaie de toujours améliorer mes connaissances et mes compétences pour maîtriser au maximum mon sujet.\nJe consolide mes acquis tout en m'investissant pleinement avec les outils modernes.\n",
     "location": {
       "countryCode": "FR",
-      "address": "essaitest"
+      "address": "8 rue du château 02190 Condé / Suippe"
     },
     "birth": {
       "place": "Soissons",
@@ -36,30 +36,78 @@
       "position": "Analyste Programmeur",
       "startDate": "2020-09-30",
       "endDate": "",
-      "highlights": [],
-      "summary": "temp5 PHP, SYMFONY, API PLATFORM, JAVASCRIPT, NODE.JS, MySQL, GITLAB, INFORMIX, 4GL",
-      "url": "",
-      "location": "Reims, Grand Est, France"
+      "summary": "Développeur Frontend et Backend dans le commerce de détail de produits.",
+      "url": "https://maximo.fr",
+      "location": "Reims, Grand Est, France",
+      "highlights": [
+        "Une application client/serveur basée sur Node.js Socket.IO / symfony 3.4.",
+        "Conception et déploiement d'Apis avec Apiplatfrom",
+        "Des applications internes basées sur > symfony 5.4 et Javascript."
+      ],
+      "keywords": [
+        "Symfony",
+        "API Platform",
+        "JavaScript",
+        "SASS",
+        "Gitlab",
+        "MySQL",
+        "npm",
+        "Informix",
+        "4GL"
+      ]
     },
     {
-      "name": "GUYOT-WALSER INFORMATIQUE",
+      "name": "Guyot-Walser Informatique",
       "position": "Analyste programmeur",
       "startDate": "2018-01-31",
       "endDate": "2020-06-30",
-      "highlights": [],
-      "summary": "Projet Php/Zend/Javascript :\nTechnologie: LAMP, Zend Framework, php, Mysql, SASS, XHTML, HTML 5, CSS 3, Jquery, Ajax, Responsive web design ...\nEnvironnement: Windows 10, Oracle VM VirtualBox avec Vagrant (ubuntu), Shell, Sublime Text\nConception, programmation et test. Correction des bugs et ajout des nouvelles fonctionnalités. Cycle de mise en production. Documentations.\nClient: Compagnie d'assurance\n\nProjet Windev, Webdev :\nTechnologie: Windev, WebDev, HyperFileSQL\nEnvironnement: Windows 10, PCSoft\nConception, programmation et test. Correction des bugs et ajout des nouvelles focntionnalités. Cycle de mise en production.\nClient: Établissements de santé.",
       "url": "https://www.linkedin.com/company/25222418",
-      "location": "Reims, Grand Est, France"
+      "location": "Reims, Grand Est, France",
+      "summary": "Développeur Frontend et Backend chez un éditeur de logiciels.",
+      "highlights": [
+        "Correction des bugs et ajout des nouvelles fonctionnalités",
+        "Cycle de mise en production, Documentations",
+        "Clients: Compagnie d'assurance (Php), Établissements de santé (PCSoft)."
+      ],
+      "keywords": [
+        "LAMP",
+        "Zend Framework",
+        "JavaScript",
+        "Jquery",
+        "WinDev",
+        "WebDev",
+        "VirtualBox",
+        "Vagrant"
+      ]
+
     },
     {
       "name": "Cidéo",
       "position": "Développeur web",
       "startDate": "2013-02-28",
       "endDate": "2017-09-30",
-      "highlights": [],
-      "summary": "En charge des développements des projets web de l'agence.",
-      "url": "",
-      "location": "ay"
+      "url": "http://cideo.fr",
+      "location": "Aÿ, Grand Est, France",
+      "summary": "En charge du développements web des clients de l'agence.",
+      "highlights": [
+        "Création et maintenance de sites médias pour quelques maisons de champagne et autres enseignes",
+        "Sites E-commerce",
+        "Gestion technique des hébergements mutualisés et dédiés",
+        "Référencement naturel"
+      ],
+      "keywords": [
+        "LAMP",
+        "Zend Framework",
+        "JavaScript",
+        "SASS",
+        "Jquery",
+        "Joomla",
+        "Prestashop",
+        "Wordpress"
+      ]
+    },
+    {
+      "breakBefore": true
     },
     {
       "name": "Pomme Z Communication",
@@ -80,6 +128,9 @@
       "summary": "En charge de l'intranet de l'agence parisienne.",
       "url": "",
       "location": null
+    },
+    {
+      "breakBefore": true
     }
   ],
   "volunteer": [],
@@ -87,6 +138,7 @@
   "awards": [],
   "certificates": [],
   "publications": [],
+
   "skills": [
     {
       "name": "Node.js",
