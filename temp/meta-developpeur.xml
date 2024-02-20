@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata>
+
+    <publisher>
+        <name>Marmits.com</name>
+        <image>https://www.marmits.com/www/images/marmitslogo.png</image>
+        <logo>https://www.marmits.com/www/images/marmitslogo.png</logo>
+        <imageWidth>1200</imageWidth>
+        <imageHeight>1333</imageHeight>
+    </publisher>
+
+    <pagefr>
+        <index>
+            <titre_page>Développeur Web</titre_page>
+            <title>Développeur informatique à Reims.</title>
+            <description>Bienvenue, je suis un développeur Php - Zend - HTML5, basé près de Reims dans la Marne.</description>
+            <cards>
+                <card1>
+                    <titre>Dernière réalisation</titre>
+                    <texte>
+                        <![CDATA[
+                            <a href="http://marmits.com/brimoncourt" target="_blank">Dernière réalisation</a>
+                        ]]>
+                      </texte>
+                </card1>
+                <card2>
+                    <titre>Expérience Pro</titre>
+                    <texte>
+                        <![CDATA[
+                            <a href="http://marmits.com/outils" target="_blank">Ma boite à outils</a>
+                        ]]>
+                      </texte>
+                </card2>
+                <card3>
+                    <titre>Expérience Pro</titre>
+                    <texte>
+                        <![CDATA[
+                            <a href="http://developpeur2010.marmits.com/contact-9-18.html/" target="_blank">Mon ancien site</a>
+                        ]]>
+                      </texte>
+                </card3>
+                <card4>
+                    <titre>Expérience Pro</titre>
+                    <texte>
+                        <![CDATA[
+                            <a href="http://marmits.com/twitter" target="_blank">Sur Twitter</a>
+                        ]]>
+                      </texte>
+                </card4>
+                <card5>
+                    <titre>Expérience Pro</titre>
+                    <texte>
+                        <![CDATA[
+                            <a href="http://marmits.com/facebook" target="_blank">Sur Facebook</a>
+                        ]]>
+                      </texte>
+                </card5>
+                 <card6>
+                    <titre>Expérience Pro</titre>
+                    <texte>
+                        <![CDATA[
+                            <a rel="author" href="https://plus.google.com/+GeoffroyStolaric" target="_blank">Sur Google plus</a>
+                        ]]>
+                      </texte>
+                </card6>
+                 <card7>
+                    <titre>Expérience Pro</titre>
+                    <texte>
+                        <![CDATA[
+                            <a href="http://marmits.com/pinterest" target="_blank">Sur Pinterest</a>
+                        ]]>
+                      </texte>
+                </card7>
+                 <card8>
+                    <titre>Expérience Pro</titre>
+                    <texte>
+                        <![CDATA[
+                            <a href="http://marmits.com/viadeo" target="_blank">Sur Viadeo</a>
+                        ]]>
+                      </texte>
+                </card8>
+                 <card9>
+                    <titre>Expérience Pro</titre>
+                    <texte>
+                        <![CDATA[
+                            <a href="http://marmits.com/linkedin" target="_blank">Sur linkedin</a>
+                        ]]>
+                      </texte>
+                </card9>
+            </cards>
+
+            <contenu>
+                <![CDATA[
+                ]]>
+            </contenu>
+        </index>
+        <profil>
+
+            <title>Développeur PHP, LAMP et Responsive Web Design à Reims</title>
+            <description>Geoffroy Stolaric est un développeur d'applications internet et de sites internet. Spécialiste Zend et HTML5 et javascript. Je recherche actuellement des projets innovants à réaliser.</description>
+            <titre_contenu>
+                <![CDATA[
+                  <h1 itemprop="name"><abbr title="Hypertext Preprocessor">PHP 5/7</abbr> - MariaDB (<abbr title="My Structured Query Language">MySql</abbr>) - <abbr title="Hypertext Markup Language">HTML 5</abbr> - <abbr title="Cascading Style Sheets (feuilles de style en cascade)">CSS 3</abbr> - Javascript - <abbr title="Linux Apache MySQL PHP">LAMP</abbr> ...</h1>
+                ]]>
+            </titre_contenu>
+            <contenu>
+                <![CDATA[
+                <p>J'enrichis régulièrement mes connaissances et mes compétences pour suivre les évolutions constantes de mon métier.</p>
+                <p>J'interviens sur des projets d'applications web et/ou de <strong>sites internet</strong> de [0 à Z]:</p>
+                <p>Création, reprise et maintenance.</p>
+                <ol>
+                    <li><h2>Le cahier des charges</h2></li>
+                    <li><h2>Le webdesign</h2></li>
+                    <li><h2>Le développement</h2></li>
+                    <li><h2>L'optimisation des pages pour les moteurs de recherche</h2></li>
+                    <li><h2>L'intégration des réseaux sociaux</h2></li>
+                    <li><h2>L'accessibilité</h2></li>
+                    <li><h2>La compatibilité</h2></li>
+                    <li><h2>L'hébergement</h2></li>
+                    <li><h2>La sécurité</h2></li>
+                    <li><h2>Les tests</h2></li>
+                    <li><h2>La documentation</h2></li>
+                    <li><h2>La maintenance</h2></li>
+                </ol>
+                <p>
+                Je suis spécialisé dans le langage <a target="new" href="http://php.net/" title="Le site officiel de Php"><abbr title="Hypertext Preprocessor">Php</abbr></a> - <a target="new" title="Le site officiel de Mysql" href="http://www.mysql.com/"><abbr title="My Structured Query Language">MySql</abbr></a> et le <a target="new" title="Le site francophone officiel du framework Zend" href="http://www.zend.com/fr/">framework Zend</a> en développement <strong>Back-end</strong>
+                et spécialisé <strong><abbr title="Hypertext Markup Language">HTML 5</abbr></strong>, <strong><abbr title="Cascading Style Sheets (feuilles de style en cascade)">CSS 3</abbr></strong> et <strong>Javascript</strong> (<a target="new" href="http://jquery.com" title="Le site officiel de Jquery">Jquery</a>, <a target="new" href="http://mootools.com" title="Le site officiel">Mootools</a>, <strong><abbr title="Asynchronous Javascript And Xml ">AJAX</abbr></strong>) en développement <strong>Front-end</strong>.
+                </p>
+                <p>
+                    J'ai également une solide expérience avec quelques <strong><abbr title="Content Management System">CMS</abbr></strong> (<a target="new" href="http://wordpress.org/" title="Le site officiel de Wordpress">Wordpress</a>, <a target="new" href="http://joomla.org/" title="Le site officiel de Joomla">Joomla</a>) et <strong>Solutions E-commerce</strong> (<a target="new" href="http://www.prestashop.com/" title="Le site officiel de Prestashop">Prestashop</a>, <a target="new" href="http://www.magentocommerce.com" title="Le site officiel de Magento">Magento</a>).
+                </p>
+                <p>
+                    J'utilise principalement la suite Adobe: <strong>Photoshop</strong> et <strong>Illustrator</strong> pour la partie <strong>PAO</strong>.
+                </p>
+                <h2>Expérimentations</h2>
+                <p>Je me passionne également pour d'autres langages et plateformes : </p>
+                <ul>
+                    <li><p><a href="https://fr.wikipedia.org/wiki/Symfony" target="new">Symfony</a></p></li>
+                    <li><p><a href="https://fr.wikipedia.org/wiki/Node.js" target="new">Node.js</a></p></li>
+                    <li><p><a href="https://fr.wikipedia.org/wiki/React_(JavaScript)" target="new">React</a></p></li>
+                    <li><p><a href="https://fr.wikipedia.org/wiki/Ruby" target="new">Ruby</a></p></li>
+                </li>
+
+
+                ]]>
+            </contenu>
+        </profil>
+        <sitesinternet>
+            <title>Création de sites internet, d'applications web à Reims.</title>
+            <description>Les différentes étapes de la création d'un site internet, d'une application web. Procédure et mise en oeuvre. Veille sur les technologies de l'internet.
+            </description>
+            <titre_contenu>
+                <![CDATA[
+                <h1 itemprop="name">Création d'un site internet, d'une application</h1>
+                <p>Les étapes d'un projet web:</p>
+                ]]>
+            </titre_contenu>
+            <contenu>
+                <![CDATA[
+                <ol>
+                    <li>
+                        <h2>Cahier des charges, étude du projet</h2>
+                        <p>Fonctionnalités, public visé, finalité, documentation.</p>
+                    </li>
+                    <li>
+                        <h2>Estimation et planning du chantier</h2>
+                        <p>Chiffrer le temps passé estimé, de la naissance du projet web à sa mise en production.</p>
+                    </li>
+                    <li>
+                        <h2>Structure, Arborescence, Stratégie de référencement</h2>
+                        <p>Menus, rubriques, classement et structure du contenu, mise en forme sémantique, choix d'un nom de domaine, gestion de l'hébergement (serveurs), emails.</p>
+                    </li>
+                    <li>
+                        <h2>Technologies et développement</h2>
+                        <p>Solutions techniques à utiliser, (langages de programmation, animations, blogs, solutions e-commerce, solutions management de contenus, etc ...).</p>
+                        <p>Intégration graphique.</p>
+                    </li>
+                    <li>
+                        <h2>Intéraction Réseaux-sociaux ou applications tierces.</h2>
+                        <p>Développement et intégration d'applications extérieures et intéractives avec le site.</p>
+                    </li>
+                    <li>
+                        <h2>Compatibilité, Visibilité</h2>
+                        <p>Selon les différents supports web et l'accessibilité des internautes (handicapés)</p>
+                    </li>
+                    <li>
+                        <h2>Design et ergonomie</h2>
+                        <p>Identité visuelle, univers graphique.</p>
+                    </li>
+                    <li>
+                        <h2>Tests, essais, corrections</h2>
+                        <p>Vérifier le bon fonctionnement de l'application web, tester tout les cas de figure.</p>
+                    </li>
+                    <li>
+                        <h2>Formation</h2>
+                        <p>Aide en ligne, formation des utilisateurs du site, expliquer les fonctionnalités et l'utilisation.</p>
+                    </li>
+                    <li>
+                        <h2>Maintenance</h2>
+                        <p>Sécurité, Pérénité du code source et des données, suivi des statistiques et des logs, assistance utilisateurs, correctifs des bugs, évolutions des fonctionnalités,
+                        sauvegarde du site internet et des bases de données, garantie.</p>
+                    </li>
+
+                </ol>
+                ]]>
+            </contenu>
+        </sitesinternet>
+        <experiencespro>
+            <itemtype>http://schema.org/Article</itemtype>
+            <title>Développeur Web à Reims.</title>
+            <titre_page>Expériences professionnelles</titre_page>
+            <titre_cv>CV</titre_cv>
+            <description>Analyste programmeur, dépveloppeur web en SSII, éditeurs, agence de publicité et de communication.</description>
+            <article>
+                <headline>headline</headline>
+                <image>https://developpeur.marmits.com/www/img/landscape-mobile.jpg</image>
+                <url>https://developpeur.marmits.com/www/img/landscape-mobile.jpg</url>
+                <imageWidth>600</imageWidth>
+                <imageHeight>400</imageHeight>
+                <dateModified>2016-07-29T20:0</dateModified>
+                <datePublished>2016-07-01T20:00</datePublished>
+                <dateCreated>2012-10-15T20:00</dateCreated>
+                <mainEntityOfPage>https://developpeur.marmits.com/experiences-pro-fr.html</mainEntityOfPage>
+            </article>
+            <titre_contenu>
+                <![CDATA[
+                <h1>Développeur <abbr title="Hypertext Preprocessor">Php</abbr>, Zend, <abbr title="My Structured Query Language">Mysql</abbr></h1>
+                <p>En Agence de communication, Éditeurs et <abbr title="Société de Services en Ingéniérie Informatique">SSII</abbr>.</p>
+                ]]>
+            </titre_contenu>
+            <contenu>
+                <guyot_walser>
+                    <![CDATA[
+                        <p>
+                            <span class="waves-effect waves-light btn-small"><i class="material-icons left">timer</i>De janvier 2018 à juin 2020</span>
+                        </p>
+
+
+                        <h4>Projet Gestion des contrats assurance d'un client :</h4>
+                        <p>
+                          <u>Technologie:</u> <strong><abbr title="Linux Apache MySQL PHP">LAMP</abbr></strong>, <strong><a href="https://framework.zend.com/" target="new">Zend Framework</a></strong>, <abbr title="Hypertext Preprocessor">php</abbr>, <abbr title="My Structured Query Language">Mysql</abbr>, <strong><abbr title="Syntactically Awesome Stylesheets">SASS</abbr></strong>, <abbr title="eXtensible HyperText Markup Language">XHTML</abbr>, <strong><abbr title="HyperText Markup Language 5">HTML 5</abbr></strong>, <strong><abbr title="Cascading Style Sheets (feuilles de style en cascade)">CSS 3</abbr></strong>, <strong>Jquery</strong>, <abbr title="Asynchronous Javascript And Xml ">Ajax</abbr>, <strong>Responsive web design ...</strong>
+                        </p>
+                        <p>
+                            <u><em>Environnement:</em></u> Windows 10, Oracle VM VirtualBox avec Vagrant (ubuntu), <a href="https://fr.wikipedia.org/wiki/Shell_Unix" target="new">Shell</a>, <a href="https://www.sublimetext.com/" target="new">Sublime Text</a>
+                        </p>
+                        <p>Conception, programmation et test. Correction des bugs et ajout des nouvelles fonctionnalités. Cycle de mise en production. Documentations.</p>
+                        <p>Client: Compagnie d'assurance</p>
+
+                        <hr>
+
+                        <h4>Projet de gestion des identités patients :</h4>
+                        <p>
+                          <u>Technologie:</u> <strong><a href="https://fr.wikipedia.org/wiki/WinDev" target="new">Windev</a></strong>, WebDev, HyperFileSQL
+                        </p>
+                        <p>
+                            <u><em>Environnement:</em></u> Windows 10, <a href="https://fr.wikipedia.org/wiki/PC_SOFT" target="new">PCSoft</a>
+                        </p>
+                        <p>Conception, programmation et test. Correction des bugs et ajout des nouvelles focntionnalités. Cycle de mise en production.</p>
+                        <p>Client: Établissements de santé.</p>
+
+                    ]]>
+                </guyot_walser>
+                <cideo>
+                    <![CDATA[
+                    <p>
+                        <span class="waves-effect waves-light btn-small"><i class="material-icons left">timer</i>De février 2013 à septembre 2017</span>
+                    </p>
+
+                        <p>
+                          <u>Technologie:</u> <strong><abbr title="Linux Apache MySQL PHP">LAMP</abbr></strong>, <strong><a href="https://framework.zend.com/" target="new">Zend Framework</a></strong>, <abbr title="Hypertext Preprocessor">php</abbr>, <abbr title="My Structured Query Language">Mysql</abbr>, <strong><abbr title="Syntactically Awesome Stylesheets">SASS</abbr></strong>, <abbr title="eXtensible HyperText Markup Language">XHTML</abbr>, <strong><abbr title="HyperText Markup Language 5">HTML 5</abbr></strong>, <strong><abbr title="Cascading Style Sheets (feuilles de style en cascade)">CSS 3</abbr></strong>, <strong>Jquery</strong>, <strong>Wordpress</strong>, <strong>Prestashop</strong>, <strong>Joomla</strong> <abbr title="Asynchronous Javascript And Xml ">Ajax</abbr>, <strong>web app</strong>, <strong>Responsive web design ...</strong>
+                        </p>
+
+                        <p>
+                            <u><em>Environnement:</em></u> Mac OS X, iOS, Android, <a href="http://brew.sh/" target="new"><strong>Homebrew</strong></a>, <a href="https://fr.wikipedia.org/wiki/Shell_Unix" target="new">Shell</a>, <a href="https://www.sublimetext.com/" target="new">Sublime Text</a>
+                        </p>
+                        <p>Conception, programmation et test. Référencement naturel. Gestion de l'hébergement des clients. Gestion technique des hébergements mutualisés et dédiés <a target="new" href="http://www.ovh.com" title="Hébergement et Solutions Internet - OVH"><strong>OVH</strong></a>. </p>
+                        <p><u>Clients:</u> Maisons de champagne, boutiques, Associations... </p>
+                    ]]>
+                </cideo>
+                <pommez>
+                    <![CDATA[
+                    <p>
+                        <span class="waves-effect waves-light btn-small"><i class="material-icons left">timer</i>De juillet 2010 à décembre 2012</span>
+                    </p>
+
+                        <p>
+                          <u>Technologie: </u> <strong><abbr title="Linux Apache MySQL PHP">LAMP</abbr></strong>, <strong>Zend</strong>, <abbr title="Hypertext Preprocessor">php</abbr>, <abbr title="My Structured Query Language">Mysql</abbr>, <abbr title="eXtensible HyperText Markup Language">XHTML</abbr>, <strong><abbr title="HyperText Markup Language 5">HTML 5</abbr></strong>, <strong><abbr title="Cascading Style Sheets (feuilles de style en cascade)">CSS 3</abbr></strong>, <strong>Jquery</strong>, Mootools, <strong>Joomla</strong>, <strong>Wordpress</strong>, <strong>Prestashop</strong>, <abbr title="Asynchronous Javascript And Xml ">Ajax</abbr>, ...
+                        </p>
+                        <p>
+                            <u><em>Environnement:</em></u> Mac OS X, iOS, Android, <a href="http://brew.sh/" target="new"><strong>Homebrew</strong></a>, <a href="https://fr.wikipedia.org/wiki/Shell_Unix" target="new">Shell</a>, <a href="https://www.sublimetext.com/" target="new">Sublime Text</a>
+                        </p>
+                        <p>
+                          Conception, programmation et test. Référencement naturel. Gestion de l'hébergement des clients. Gestion technique des hébergements mutualisés et dédiés
+                          <a href="http://www.ovh.com" title="Hébergement et Solutions Internet - OVH" target="new"><strong>OVH</strong></a>.
+                        </p>
+                        <p><u>Clients:</u> Maisons de champagne, Cabinets d'architectes, Groupes pharmaceutiques, Education, Commerçants, Artisans, Entrepeneurs, Associations ...</p>
+                    ]]>
+                </pommez>
+                <quadra>
+                    <![CDATA[
+
+                    <p>
+                        <span class="waves-effect waves-light btn-small"><i class="material-icons left">timer</i>D'octobre 2006 à octobre 2009</span>
+                    </p>
+
+
+                        <p><abbr title="Hypertext Preprocessor">PHP</abbr>, <abbr title="My Structured Query Language">Mysql</abbr>, Zend, DotNet, Magento, Joomla, Prestashop, Wordpress</p>
+                    ]]>
+                </quadra>
+                <wayne>
+                    <![CDATA[
+                    <p>
+                    <span class="waves-effect waves-light btn-small"><i class="material-icons left">timer</i>2005-2006</span>
+                    </p>
+
+                    <p>Différentes missions dans les divers domaines du développement et de l'informatique. <abbr title="Hypertext Preprocessor">Php</abbr>, <abbr title="Active Server Pages">ASP</abbr>.NET, <abbr title="Visual Basic">VB</abbr>.NET, <a title="4D" target="window" href="http://www.4d.com/fr/">4DIMENSION</a> sur mac et <abbr title="Personal Computer">PC</abbr>. Live Box Orange, Formation réseaux.&nbsp; </p>
+                    ]]>
+                </wayne>
+                <eurorscg>
+                    <![CDATA[
+                    <p>
+                        <span class="waves-effect waves-light btn-small"><i class="material-icons left">timer</i>août 2004</span>
+                    </p>
+
+                        <p>
+                            <strong> BETC 4D Euro RSCG France</strong> à Suresnes (92). Agence de publicité (groupe Havas). Intégration du site internet promotionnel de "La foire aux vins" de <strong>Carrefour</strong>. Agence de publicité (groupe Havas). "La foire aux vins 2004 de Carrefour"
+                        </p>
+                    ]]>
+                </eurorscg>
+                <yr>
+                    <![CDATA[
+                    <p>
+                        <span class="waves-effect waves-light btn-small"><i class="material-icons left">timer</i>De juillet 2000 à janvier 2004</span>
+                    </p>
+
+                        <p>Agence de publicité de 300 personnes (groupe <abbr title="Wires &amp; Plastic Products">WPP</abbr>). Webmaster au sein du service informatique de l'agence.
+                        <strong>Responsable du système d'information</strong> de l'agence (<strong>intranet</strong>).</p>
+                        <p><u>Administrateur:</u></p>
+                        <p>Installation et maintenance sur serveur linux avec distribution Red hat et Mandrake.</p>
+                        <p><u>Gestion de projets:</u></p>
+                        <p>Création d'outils et de procédures. Analyse des besoins et conseils adaptés aux problématiques. Rédaction du cahier des charges. Intégrations. Formations utilisateurs et administrateurs.</p>
+                        <p><u>Développement:</u></p>
+                        <p><abbr title="Hypertext Preprocessor">PHP</abbr>, <abbr title="My Structured Query Language">MySql</abbr>, Javascript, <abbr title="Dynamic Hypertext Markup Language">Dhtml</abbr>, <abbr title="Hypertext Markup Language">Html</abbr>, Flash script.</p>
+                        <p><u>Outils:</u></p>
+                        <p>Dreamweaver, Flash, Quanta,  Apache, Photoshop, Illustrator.</p>
+                        <p><u>Réalisations:</u></p>
+                        <p>Création et mise en place de l'<strong>intranet</strong> avec l'association de tous les collaborateurs de l'agence.</p>
+                        <p>Mesure d'audience, statistiques, archivage des créations de l'agence, rubriques comité d'entreprise, archivage des présentations et des études, outils pour la veille marketing, outils de gestion pour les recherches documentaires, gestionnaire de parc informatique, espace de communication (forums, tchat).</p>
+                        <p>Outils de gestion des bons d'expédition (service des courses), outils de gestion et d'édition des contrats (service juridique), conception d'animations interactives en flash (Présentations, etc...), conception de plannings et de logiciels de groupware adaptés.</p>
+                    ]]>
+                </yr>
+                <wunderman>
+                    <![CDATA[
+                    <p>
+                        <span class="waves-effect waves-light btn-small"><i class="material-icons left">timer</i>De aout 1998 à juillet 2000</span>
+                    </p>
+
+                        <p>à Boulogne Billancourt (92).</p>
+                        <p>Agence en conseil marketing direct de 160 personnes (groupe <abbr title="Wires &amp; Plastic Products">WPP</abbr>).</p>
+                        <p>en relation directe avec le responsable informatique.</p>
+                        <p><u>Fonctions:</u></p>
+                        <p>Installation et maintenance d'un <strong>parc informatique</strong> de 160 postes et composé de <abbr title="Personnal Computer">PC</abbr> et de Macintosh.</p>
+                        <p>Installation et administration de 5 serveurs Novell Netware 4.11 et Windows NT 4.0.</p>
+                        <p>Support utilisateurs 1er et 2ème niveau.</p>
+                        <p>Création d'outils et de procédures.</p>
+                        <p>Analyse des besoins.</p>
+                        <p>Etablissement des budgets.</p>
+                        <p>Achats et négociations.</p>
+                        <p>Formation des utilisateurs.</p>
+                        <p><u> Réalisations:</u></p>
+                        <p>Conseils, installation, maintenance, et administration des stations de travail et des serveurs.</p>
+                        <p>Déménagement de Wunderman dans d'autres bureaux. Déploiement projet An 2000.</p>
+                        <p>Déploiement de Lotus Notes.</p>
+                    ]]>
+                </wunderman>
+
+            </contenu>
+        </experiencespro>
+        <formations>
+            <title>Formations - Analyste Programmeur</title>
+            <description>BTS informatique de gestion (développeur d'applications), AFORP Oise de Senlis, obtenu en 2000. Baccalauréat STI électronique, obtenu en 1997, lycée Léonard de Vinci à Soissons dans l'aisne.</description>
+            <titre_contenu>
+                <![CDATA[
+                <p itemprop="name">Bac + 2 informatique</p>
+                 ]]>
+            </titre_contenu>
+            <intro>
+
+                         Depuis
+
+            </intro>
+            <contenu>
+                <![CDATA[
+                <ul itemprop="articleBody">
+                <li>
+                  <h2>B.T.S. Informatique de gestion</h2>
+                  <p><a href="http://www.promeo-formation.fr/nos-centres/senlis/" title="CFIT site web" target="new">AFORP OISE (<abbr title="Centre de Formation Industriel et Technologique">CFIT</abbr>)</a></p>
+                  <h4>de septembre 1998 à juin 2000</h4>
+                  <p>option <strong>développeur d'applications</strong> (niveau bac + 2 en alternance). au centre de formation de l'<strong>AFORP OISE</strong> de Senlis (60).</p>
+                  <p>(Ancienne adresse: http://www.formatel.com/stages/centres/8877.html)</p>
+                </li>
+                <li>
+                  <h2>Baccalauréat <abbr title="Sciences et Technologies Industrielles ">STI</abbr> génie électronique (BAC F2)</h2>
+                  <p><a href="http://devinci.lyc.ac-amiens.fr/" title="Site web Lycée technique Léonard de Vinci" target="new">Lycée technique Léonard de Vinci</a></p>
+                  <h4>de septembre 1996 à juin 1997</h4>
+                  <p>à <strong>Soissons</strong> dans l'Aisne (02).</p>
+                  </li>
+                </ul>
+
+                ]]>
+            </contenu>
+        </formations>
+        <competences>
+            <title>Développeur Back-End et Front-End. RWD et SEO.</title>
+            <description>Survol rapide de mes compétences: Language: PHP, MySql, ZEND framework, Ajax, Jquery, mootools. Responsive Design. CMS:  joomla 1.7, prestashop, oscommerce, magento, wordpress. Norme: W3C, XHTML, HTML5, XML, DHTML</description>
+            <tableau>
+            <![CDATA[
+
+            <h2>Développeur  BACK-END</h2>
+            <ul>
+                <li><p><a target="_blank" href="http://php.net/" title="Le site officiel de Php"><abbr title="Hypertext Preprocessor">Php 5/7</abbr></a>, <a target="_blank" title="Le site francophone officiel de Zend" href="http://www.zend.com/fr/">Zend</a>, <a target="_blank" title="Le site officiel de Mysql" href="http://www.mysql.com/"><abbr title="My Structured Query Language">MySql</abbr></a> - Conception et maintenance de sites web et Intranet.</p></li>
+                <li><p><a target="_blank" href="http://wordpress.org/" title="Le site officiel de Wordpress">Wordpress</a>, <a target="_blank" href="http://joomla.org/" title="Le site officiel de Joomla">Joomla</a>, <a target="_blank" href="http://www.prestashop.com/" title="Le site officiel de Prestashop">Prestashop</a>, <a target="_blank" href="http://www.magentocommerce.com" title="Le site officiel de Magento">Magento</a> - Gestion de contenu, E-commerce.</p></li>
+                <li><p><a target="_blank" href="https://fr.wikipedia.org/wiki/Interface_de_programmation" title="Interface de programmation - Wikipédia><abbr title="Application Programming Interface">API</abbr></a>(tiers), <a target="_blank" href="https://fr.wikipedia.org/wiki/Interface_de_programmation" title="Representational state transfer - Wikipédia"><abbr title="representational state transfer">REST</abbr></a>, <a target="_blank" href="https://fr.wikipedia.org/wiki/SOAP" title="SOAP - Wikipédia"><abbr title="Simple Object Access Protocol">SOAP</abbr></a>.</p></li>
+            </ul>
+
+            <h2>Développeur  FRONT-END - <abbr title="Responsive Web Design">WRD</abbr></h2>
+
+              <ul>
+                <li><p><strong><abbr title="Hypertext Markup Language">HTML 5</abbr></strong>, <strong><abbr title="Cascading Style Sheets (feuilles de style en cascade)">CSS 3</abbr></strong>, <strong><abbr title="Syntactically Awesome Stylesheets">SASS</abbr></strong>, <strong>Javascript</strong>. (<a target="_blank" href="http://jquery.com" title="Le site officiel de Jquery">Jquery</a>, <a target="_blank" href="http://mootools.com" title="Le site officiel">Mootools</a>) - Conception d'interface web ordinateur, mobile, tablette.</p></li>
+                <li><p>Conception de sites web adaptatifs: <a href="http://fr.wikipedia.org/wiki/Responsive_Web_Design" title="Définition">Responsive Web Design</a>.</p></li>
+              </ul>
+
+            <h2>Technicien <strong><abbr title="Search engine optimization">SEO</abbr></strong>, Référenceur.</h2>
+
+              <ul>
+                <li><p>L'optimisation des pages pour les moteurs.</p></li>
+                <li><p>L'utilisation judicieuse des réseaux sociaux pour accroître sa visiblité.</p></li>
+                <li><p>Une veille permanente pour surveiller les tendances.</p></li>
+              </ul>
+
+            <h2>Administrateur de sites web, serveurs internet.</h2>
+
+            <ul>
+              <li><p>Gestion des hébergements: Noms de domaine, <abbr title="Domain Name System">DNS</abbr>, Mails.</p></li>
+              <li><p>Administration et utilisation de Linux: Apache, installation, configuration, paramétrages, sauvegardes, sécurité, serveurs dédiés, <abbr title="Secure Shell">SSH</abbr>, Tomcat, <abbr title="Java Development Kit">JDK</abbr>.</p></li>
+            </ul>
+
+            <h2>Développeur web, intégrateur web, Référencement et technicien serveurs Linux.</h2>
+
+            <ul>
+                <li><p>Gestion des serveurs d'hébergement</p></li>
+                <li><p>Intégration graphique et sémantique</p></li>
+                <li><p>Intégration des réseaux sociaux</p></li>
+                <li><p>Animation</p></li>
+                <li><p>Techonologie <abbr title="Asynchronous Javascript And Xml ">AJAX</abbr></p></li>
+                <li><p>Site web mobile</p></li>
+                <li><p><strong>Responsive Web Design</strong></p></li>
+                <li><p>Paiement en ligne</p></li>
+                <li><p>Conception, Gestion des bases de donnnées</p></li>
+                <li><p>Site web administrable</p></li>
+                <li><p>Contribution développements web</p></li>
+                <li><p>Veille technologique quotidienne</p></li>
+                <li><p>Référencement naturel</p></li>
+                <li><p>Documentation</p></li>
+                <li><p>Accessiblité</p></li>
+                <li><p>Sécurité</p></li>
+            </ul>
+            <table class="bordered striped highlight">
+              <caption>
+              Classement par domaines et niveaux de maîtrise.
+              </caption>
+              <thead>
+              <tr>
+              <th>&nbsp;</th>
+              <th><div class="center-align" title="Très bonne maîtrise"><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></div></th>
+              <th><div class="center-align" title="Bonnes notions à perfectionner"><i class="material-icons">grade</i><i class="material-icons">grade</i></div></th>
+              <th><div class="center-align" title="Connaissances à approndir"><i class="material-icons">grade</i></div></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Langages</td>
+                <td><strong>ZEND</strong>, <strong><abbr title="Hypertext Markup Language">HTML 5</abbr></strong>, <strong><abbr title="Syntactically Awesome Stylesheets">SASS</abbr></strong>, <strong><abbr title="Cascading Style Sheets (feuilles de style en cascade)">CSS 3</abbr></strong>, <strong>Javacript</strong>, <strong><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></strong>, <abbr title="Dynamic HyperText Markup Language">DHTML</abbr>, <abbr title="Extensible Markup Language">XML</abbr>, <abbr title="JavaScript Object Notation">JSON</abbr>, <abbr title="Active Server Pages">ASP</abbr>, <strong><abbr title="Hypertext Preprocessor">PHP 5/7</abbr></strong>, <strong><abbr title="Asynchronous Javascript And Xml ">AJAX</abbr></strong>, <strong>Jquery</strong>, Mootools, prototype, Basic, C, Visual Basic, <abbr title="Structured Query Language">SQL</abbr>, <strong>Windev</strong>, <strong>WebDev</strong>, HyperFileSQL.</td>
+                <td>Symphony, Node.js, React.js <abbr title="Active Server Pages">ASP</abbr>.NET, <abbr title="Visual Basic">VB</abbr>.NET, <a href="http://www.4d.com/fr/" target="window" title="4D">4D,</a> Notes/Doino Designer 5.0, C++, JAVA.</td>
+                <td><abbr title="Action Script">AS3</abbr>, Pascal, Perl, <abbr title="Common Gateway Interface">CGI</abbr>, Apple script</td>
+              </tr>
+              <tr>
+                <td><strong><abbr title="Content Management System">CMS</abbr></strong> <strong><abbr title="Hypertext Preprocessor">PHP</abbr></strong></td>
+                <td><strong>Drupal</strong>, Joomla, <strong>Prestashop</strong>, <strong>Wordpress</strong>, <abbr title="Système de Publication pour un Internet Partagé">Spip.</abbr></td>
+                <td>Typo3, Magento.</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>Bases de données</td>
+                <td><strong><abbr title="My Structured Query Language">MySql 5</abbr></strong>, Postgresql, Business Objects, Access, Filemaker Pro,<strong><abbr> </abbr></strong><abbr title="Open Database Connectivity">ODBC</abbr>.</td>
+                <td>Oracle,<abbr title="Structured Query Language"> SQL</abbr> Server.</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>Internet</td>
+                <td> Réseaux sociaux, blogs, <strong>référencement</strong>, les bonnes pratiques <strong><abbr title="Search engine optimization">SEO</abbr></strong>, <strong>optimisation moteurs de recherche</strong>, Social Media Optimization (<strong><abbr title="Social Media Optimization">SMO</abbr></strong>), <strong><abbr title="World Wide Web Consortium">W3C</abbr></strong>, gestion d'hébergement, gestion des noms de domaines,
+                  gestion des <abbr title="Domain Name System">DNS</abbr>.
+                  </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>Systèmes</td>
+                <td>Linux, Mac <abbr title="Operating System">OS</abbr> X, Windows.</td>
+                <td>Unix.</td>
+                <td>Novel Netware.</td>
+              </tr>
+              <tr>
+                <td>Serveurs</td>
+                <td>Architecture <abbr title="Linux Apache MySQL PHP">Lamp</abbr> et <abbr title="Windows Apache MySQL PHP">Wamp</abbr>. <abbr title="Secure Shell">SSH</abbr>. Mac OSX server(10), Windows NT-2000 Server et Terminal Server, Notes / Domino 5.0 et Linux. Apache. Samba.</td>
+                <td>Jetty, Tomcat, Netware 3.12 &amp; 4.11, Ethernet, IPX/SPX, <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr>, <abbr title="réseau numérique à intégration de services">RNIS</abbr>, <abbr title="Asymmetric Digital Subscriber Line">ADSL</abbr>, Telnet.</td>
+                <td>Apple talk, Landpark, Citrix ICA, routeur Netopia R3100 EC-S, switch 3com
+                  <div class="minus">Superstack3,</div>
+                  switch Cisco, routeur Cisco 800, Linksys, Bewan.</td>
+              </tr>
+              <tr>
+                <td>Sécurité</td>
+                <td><strong>Certificats <abbr title="Secure Sockets Layer">SSL</abbr></strong> ou <abbr title="Transport Layer Security">(TLS)</abbr>, <strong><abbr title="Access Control List, liste de contrôle d'accès">ACL</abbr></strong>, iptables,  ...</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>Utilitaires</td>
+                <td>Sublime Text, Homebrew (<abbr title="Syntactically Awesome Stylesheets">SASS</abbr>, Uglifier, Git), Async,  Grep, Subversion. Virtual Box, Android Studio, Xcode, Github, Vagrant</td>
+                <td>Htmlunit.</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>Graphique</td>
+                <td><strong>Photoshop</strong>, Illustrator, Fireworks, Graphic converter, Acrobat, Gimp.</td>
+                <td>Flash MX, Indesign, Xpress, PhotoImpact</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>Bureau</td>
+                <td>LibreOffice, <abbr title="Microsoft">MS</abbr> Office (Word, Excel, Outlook, Publisher, Powerpoint, Access, Photodraw).</td>
+                <td>SmartSuite 97 (Word Pro, 123, Freelance Graphics, Approach, Organizer ).</td>
+                <td>Project 2000.</td>
+              </tr>
+              <tr>
+                <td>Méthodes</td>
+                <td>Merise.</td>
+                <td><abbr title="Unified Modeling Language">UML</abbr></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>Matériels</td>
+                <td><abbr title="Personal Computer">PC</abbr>, Macintosh ... OVH (serveurs mutualisés et dédiés)<br />
+                  Switch, routeur, firewall, nas, Raspberry, <abbr title="Wireless Fidelity">WIFI</abbr>.</td>
+                <td>cablage.</td>
+                <td>Autocom.</td>
+              </tr>
+              </tbody>
+            </table>
+
+            ]]>
+            </tableau>
+        </competences>
+        <contact>
+            <title>Contactez moi...</title>
+            <description>Contactez moi avec le formulaire en ligne ou par mail: geoffroy.stolaric@gmail.com</description>
+            <para1></para1>
+        </contact>
+        <carte>
+            <title>Carte - Géolocalisation</title>
+            <description>La description</description>
+            <para1></para1>
+        </carte>
+        <error>
+            <title>Erreur</title>
+            <description></description>
+            <flagerror></flagerror>
+        </error>
+
+
+        <footer>
+            <para1>
+                 <![CDATA[
+
+                Professionnel et passionné dans le monde informatique, du digital et de la communication<em> depuis 1998.</em>
+                Un parcours dans le domaine de la <strong>publicité</strong>, des <strong>SSII</strong>, du <strong>E-commerce</strong>, du <strong>WebDesign</strong> et le <strong>développement informatique</strong> en général.
+              ]]>
+            </para1>
+        </footer>
+        <footer_old>
+            <para1>
+                 <![CDATA[
+
+                Professionnel et passionné dans le monde de l'informatique, du digital et de la communication<em> depuis 1998.</em>
+                Un parcours dans le domaine de la <strong>publicité</strong>, des <strong>SSII</strong>, du <strong>E-commerce</strong>, du <strong>WebDesign</strong> et le <strong>développement informatique</strong> en général.
+                J'interviens localement aux alentours de <strong>Paris</strong> (40 min), <strong>Reims</strong>, <strong>Soissons</strong>, <strong>Laon</strong>, <strong>Châlons en Champagne</strong>, <strong>&Eacute;pernay</strong> et <strong>Charleville-Mézières</strong>.
+                Pour tout autre lieux, je propose le <strong>télétravail</strong>.
+              ]]>
+            </para1>
+        </footer_old>
+
+        <dates>
+            <guyot_walser>2018-01-15</guyot_walser>
+            <guyot_walserend>2020-06-30</guyot_walserend>
+            <cideo>2013-02-07</cideo>
+            <cideoend>2017-08-31</cideoend>
+            <birthday>1977-05-02</birthday>
+            <developpeur>1998-01-01</developpeur>
+            <bts>2000-06-29</bts>
+            <bac>1997-10-06</bac>
+        </dates>
+        <links>
+            <mapconde>https://www.google.fr/maps/place/49%C2%B025'01.3%22N+3%C2%B057'05.1%22E/@49.4170251,3.9507474,18z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d49.417024!4d3.951418?hl=fr</mapconde>
+            <mapambleny>https://www.google.fr/maps/place/49%C2%B025'01.3%22N+3%C2%B057'05.1%22E/@49.4170251,3.9507474,18z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d49.417024!4d3.951418?hl=fr</mapambleny>
+            <mapcideo>https://www.google.fr/maps/place/49%C2%B025'01.3%22N+3%C2%B057'05.1%22E/@49.4170251,3.9507474,18z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d49.417024!4d3.951418?hl=fr</mapcideo>
+        </links>
+
+
+
+    </pagefr>
+
+
+
+</configdata>
+
+
