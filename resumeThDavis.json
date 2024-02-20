@@ -65,6 +65,8 @@
       "level": "Senior",
       "name": "Frontend"
     },
+
+
     {
       "keywords": ["Node", "Ruby", "Python", "Postgres", "Redis", "Serverless"],
       "level": "Senior",
