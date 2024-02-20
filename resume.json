@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Geoffroy Stolaric",
-    "label": "Développeur Full-Stack PHP / Javascript.",
+    "label": "Développeur Full-Stack PHP / JavaScript.",
     "image": "",
     "email": "geoffroy.stolaric@gmail.com",
     "phone": "+33623495457",
@@ -42,7 +42,8 @@
       "highlights": [
         "Une application client/serveur basée sur Node.js Socket.IO / symfony 3.4.",
         "Conception et déploiement d'Apis avec Apiplatfrom",
-        "Des applications internes basées sur > symfony 5.4 et Javascript."
+        "Des applications internes basées sur > symfony 5.4 et Javascript.",
+        "Conception de bundles internes pour Symfony"
       ],
       "keywords": [
         "Symfony",
@@ -59,12 +60,13 @@
     {
       "name": "Guyot-Walser Informatique",
       "position": "Analyste programmeur",
-      "startDate": "2018-01-31",
+      "startDate": "2018-01-15",
       "endDate": "2020-06-30",
       "url": "https://www.linkedin.com/company/25222418",
       "location": "Reims, Grand Est, France",
       "summary": "Développeur Frontend et Backend chez un éditeur de logiciels.",
       "highlights": [
+        "Applications gestion des sinistres patient et Application gestion des identités patients dans les établissements de santé",
         "Correction des bugs et ajout des nouvelles fonctionnalités",
         "Cycle de mise en production, Documentations",
         "Clients: Compagnie d'assurance (Php), Établissements de santé (PCSoft)."
@@ -107,38 +109,160 @@
       ]
     },
     {
-      "breakBefore": true
-    },
-    {
       "name": "Pomme Z Communication",
       "position": "Développeur Web",
       "startDate": "2010-07-31",
       "endDate": "2012-12-31",
+      "summary": "Conception, programmation et test. Référencement naturel. Gestion de l'hébergement des clients. Gestion technique des hébergements mutualisés et dédiés",
       "highlights": [],
-      "summary": null,
+      "keywords": [
+        "LAMP",
+        "Zend Framework",
+        "JavaScript",
+        "SASS",
+        "Jquery",
+        "Joomla",
+        "Wordpress"
+      ],
       "url": "",
-      "location": null
+      "location": "Reims, Grand Est, France"
+    },
+    {
+      "name": "Quadra Informatique",
+      "position": "Analyste programmeur",
+      "startDate": "2006-10-01",
+      "endDate": "2009-10-31",
+      "summary": "Développeur web pour divers clients Régie/Forfait",
+      "highlights": [],
+      "keywords": [
+        "LAMP",
+        "Zend Framework",
+        "JavaScript",
+        "DotNet",
+        "SASS",
+        "Jquery",
+        "Magento",
+        "Joomla",
+        "Prestashop",
+        "Wordpress"
+      ],
+      "url": "https://www.quadra-informatique.fr",
+      "location": "Reims et Strasbourg, Grand Est, France"
+    },
+    {
+      "name": "Aïda, Wayne-Dalton",
+      "position": "Développeur",
+      "startDate": "2005",
+      "endDate": "2006-07-15",
+      "highlights": [],
+      "keywords": [
+        "Php",
+        "Mysql",
+        "4DIMENSION",
+        "ASP.NET",
+        "VB.NET"
+      ],
+      "summary": "👷 Différentes missions de courtes durées dans diverses entreprises lors de mon arrivée à Reims",
+      "url": "",
+      "location": "Reims, Grand Est, France"
+    },
+    {
+      "name": "BETC 4D Euro RSCG",
+      "position": "Développeur",
+      "startDate": "2004-07-01",
+      "endDate": "2004-07-31",
+      "highlights": [],
+      "summary": "La foire aux vins 2004 de Carrefour",
+      "url": "https://fr.wikipedia.org/wiki/BETC",
+      "location": "Suresnes, Île-de-France, France"
     },
     {
       "name": "Young & Rubicam",
       "position": "Analyste programmeur",
-      "startDate": "1998-12-31",
-      "endDate": "2004-12-31",
-      "highlights": [],
+      "startDate": "2000-07-01",
+      "endDate": "2004-01-31",
       "summary": "En charge de l'intranet de l'agence parisienne.",
-      "url": "",
-      "location": null
+      "highlights": [
+        "Divers outils de gestion: Mesure d'audience, Statistiques, Archivage multimédia, Recherches documentaires, Veille marketing, Parc informatique, Espace de communication, Coursiers, Contrats juridique",
+        "Animations intéractives, Planning, Groupware"
+      ],
+      "keywords": [
+        "Apache",
+        "Red hat",
+        "Mandrake",
+        "Php3",
+        "Php4",
+        "Mysql",
+        "Flash",
+        "ActionScript",
+        "Photoshop",
+        "Illustrator"
+      ],
+      "url": "https://fr.wikipedia.org/wiki/Young_%26_Rubicam",
+      "location": "Boulogne Billancourt, Île-de-France, France"
     },
     {
-      "breakBefore": true
+      "name": "Wunderman Cato Johnson",
+      "position": "Analyste programmeur",
+      "startDate": "1998-08-01",
+      "endDate": "2000-06-30",
+      "summary": "Analyste programmeur en alternance. 1semaine/2",
+      "highlights": [
+        "Administrateur Réseaux",
+        "Support utilisateurs et réseaux en entreprise",
+        "Programmation en formation"
+      ],
+      "keywords": [
+        "Power Mac",
+        "Windows 98",
+        "Windows NT 4.0",
+        "Novell Netware 4.11",
+        "Solaris",
+        "Lotus Notes",
+        "ASP.NET",
+        "VBA",
+        "Php3",
+        "Mysql"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Wunderman",
+      "location": "Boulogne Billancourt, Île-de-France, France"
+    }
+
+  ],
+  "education": [
+    {
+      "institution": "AFORP Oise de Senlis",
+      "location": {
+        "city": "Senlis",
+        "countryCode": "FR",
+        "region": "France"
+      },
+      "area": "Programmation",
+      "studyType": "BTS Informatique de Gestion : Développeur d'applications",
+      "startDate": "1998-09-01",
+      "endDate": "2000-06-30",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Léonard de Vinci à Soissons",
+      "location": {
+        "city": "Soissons",
+        "countryCode": "FR",
+        "region": "France"
+      },
+      "area": "Technologie / électronique",
+      "studyType": "Baccalauréat STI électronique (F2)",
+      "startDate": "1996-09-01",
+      "endDate": "1997-06-30",
+      "score": "",
+      "courses": []
     }
   ],
   "volunteer": [],
-  "education": [],
   "awards": [],
   "certificates": [],
   "publications": [],
-
   "skills": [
     {
       "name": "Node.js",
@@ -393,11 +517,18 @@
   ],
   "languages": [
     {
-      "language": "fr",
-      "fluency": "Native Speaker"
+      "language": "En",
+      "fluency": "Intermédiaire"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Open source"
+    },
+    {
+      "name": "Guitare"
+    }
+  ],
   "references": [],
   "projects": [],
   "meta": {
