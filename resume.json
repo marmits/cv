@@ -143,7 +143,9 @@
       "startDate": "2006-10-01",
       "endDate": "2009-10-31",
       "summary": "Développeur web pour divers clients Régie/Forfait.",
-      "highlights": [],
+      "highlights": [
+        "ArcelorMittal(Reims), MHIS(Épernay)"
+      ],
       "keywords": [
         "LAMP",
         "Zend Framework",
