@@ -6,7 +6,7 @@
     "image": "",
     "email": "geoffroy.stolaric@gmail.com",
     "phone": "+33623495457",
-    "url": "https://www.codeur.fr",
+    "url": "https://marmits.github.io",
     "summary": "J'évolue et je code dans le domaine web depuis 1998.\nMon expérience couvre de multiples activités comme les SS2I, la publicité, l'e-commerce, l'industrie, le secteur alimentaire en passant par la santé.\nJ'ai également exploré de nombreux domaines comme le multimédia, la maintenance, les dépoiements, la sécurité, le travail collaboratif, les apis.\nMon stack technique est orienté essentiellement dans l'univers open source.\nMon environnement applicatif tourne autour de linux, du PHP (Symfony, Zend), du JavaScript, ses bibiothèques et le SQL.\nJ'apprécie les défis, le travail en équipe, trouver et mettre en oeuvre des solutions, l'optimisation et exploiter les standards.\nJ'essaie de toujours améliorer mes connaissances et mes compétences afin de maîtriser au maximum mon sujet tout en m'investissant pleinement avec les outils modernes.",
     "location": {
       "address": "8 rue du château",
@@ -22,9 +22,14 @@
     },
     "profiles": [
       {
+        "network": "Github",
+        "username": "marmits",
+        "url": "https://github.com/marmits"
+      },
+      {
         "network": "LinkedIn",
         "username": "marmitscom",
-        "url": "https://www.linkedin.com/in/marmitscom/"
+        "url": "https://www.linkedin.com/in/marmitscom"
       },
       {
         "network": "Twitter",
@@ -52,6 +57,7 @@
         "Symfony",
         "API Platform",
         "JavaScript",
+        "Node.js",
         "SASS",
         "Gitlab",
         "MySQL",
@@ -138,7 +144,9 @@
       "startDate": "2006-10-01",
       "endDate": "2009-10-31",
       "summary": "Développeur web pour divers clients Régie/Forfait.",
-      "highlights": [],
+      "highlights": [
+        "ArcelorMittal(Reims), MHIS(Épernay)"
+      ],
       "keywords": [
         "LAMP",
         "Zend Framework",
