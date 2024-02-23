@@ -143,7 +143,9 @@
       "startDate": "2006-10-01",
       "endDate": "2009-10-31",
       "summary": "Développeur web pour divers clients Régie/Forfait.",
-      "highlights": [],
+      "highlights": [
+        "ArcelorMittal(Reims), MHIS(Épernay)"
+      ],
       "keywords": [
         "LAMP",
         "Zend Framework",
@@ -208,7 +210,7 @@
         "Photoshop",
         "Illustrator"
       ],
-      "url": "https://fr.wikipedia.org/wiki/Young_%26_Rubicam",
+      "url": "https://fr.wikipedia.org/wiki/Young_&_Rubicam",
       "location": "Boulogne Billancourt, Île-de-France, France"
     },
     {
