@@ -22,9 +22,14 @@
     },
     "profiles": [
       {
+        "network": "Github",
+        "username": "marmits",
+        "url": "https://github.com/marmits"
+      },
+      {
         "network": "LinkedIn",
         "username": "marmitscom",
-        "url": "https://www.linkedin.com/in/marmitscom/"
+        "url": "https://www.linkedin.com/in/marmitscom"
       },
       {
         "network": "Twitter",
