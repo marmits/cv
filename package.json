@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "jsonresume-theme-stackoverflowmar": "github:marmits/jsonresume-theme-stackoverflowmar#semver:^1.0",
+    "jsonresume-theme-stackoverflowmar": "file:../Bundles/Marmits/jsonresume-theme-stackoverflowmar",
     "resumed": "^3.0.1"
   }
 }
