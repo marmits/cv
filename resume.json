@@ -7,7 +7,7 @@
     "email": "geoffroy.stolaric@gmail.com",
     "phone": "+33623495457",
     "url": "https://marmits.github.io",
-    "summary": "J'évolue et je code dans le domaine web depuis 1998.\nMon expérience couvre de multiples activités comme les SS2I, la publicité, l'e-commerce, l'industrie, le secteur alimentaire en passant par la santé.\nJ'ai également exploré de nombreux domaines comme le multimédia, la maintenance, les dépoiements, la sécurité, le travail collaboratif, les apis.\nMon stack technique est orienté essentiellement dans l'univers open source.\nMon environnement applicatif tourne autour de linux, du PHP (Symfony, Zend), du JavaScript, ses bibiothèques et le SQL.\nJ'apprécie les défis, le travail en équipe, trouver et mettre en oeuvre des solutions, l'optimisation et exploiter les standards.\nJ'essaie de toujours améliorer mes connaissances et mes compétences afin de maîtriser au maximum mon sujet tout en m'investissant pleinement avec les outils modernes.",
+    "summary": "J'évolue et je code dans le domaine web depuis 1998.\nMon expérience couvre de multiples activités comme les SS2I, la publicité, l'e-commerce, l'industrie, le secteur alimentaire en passant par la santé.\nJ'ai également exploré de nombreux domaines comme le multimédia, la maintenance, les déploiements, la sécurité, le travail collaboratif, les API.\nMon stack technique est orienté essentiellement dans l'univers open source.\nMon environnement applicatif tourne autour de Linux, du PHP (Symfony, Zend), du JavaScript, ses bibiothèques et le SQL.\nJ'apprécie les défis, le travail en équipe, trouver et mettre en oeuvre des solutions, l'optimisation et exploiter les standards.\nJ'essaie de toujours améliorer mes connaissances et mes compétences afin de maîtriser au maximum mon sujet tout en m'investissant pleinement avec les outils modernes.",
     "location": {
       "address": "8 rue du château",
       "postalCode": "02190",
@@ -48,9 +48,9 @@
       "url": "https://maximo.fr",
       "location": "Reims, Grand Est, France",
       "highlights": [
-        "Une application client/serveur basée sur Node.js Socket.IO / symfony 3.4",
-        "Conception et déploiement d'Apis avec API Platform",
-        "Des applications internes basées sur > symfony 5.4 et Javascript",
+        "Une application client/serveur basée sur Node.js Socket.IO / Symfony 3.4",
+        "Conception et déploiement d'API avec API Platform",
+        "Des applications internes basées sur > Symfony 5.4 et Javascript",
         "Conception de bundles internes pour Symfony"
       ],
       "keywords": [
@@ -75,10 +75,10 @@
       "location": "Reims, Grand Est, France",
       "summary": "Développeur Frontend et Backend chez un éditeur de logiciels.",
       "highlights": [
-        "Applications gestion des sinistres patient et Application gestion des identités patients dans les établissements de santé",
+        "Applications gestion des sinistres patients et Application gestion des identités patients dans les établissements de santé",
         "Correction des bugs et ajout des nouvelles fonctionnalités",
         "Cycle de mise en production, Documentations",
-        "Clients: Compagnie d'assurance (Php), Établissements de santé (PCSoft."
+        "Clients: Compagnie d'assurance (Php), Établissements de santé (PCSoft)."
       ],
       "keywords": [
         "LAMP",
