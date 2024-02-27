@@ -35,6 +35,11 @@
         "network": "Twitter",
         "username": "marmitscom",
         "url": "https://twitter.com/marmitscom"
+      },
+      {
+        "network": "Doyoubuzz",
+        "username": "geoffroy-stolaric",
+        "url": "https://www.doyoubuzz.com/geoffroy-stolaric"
       }
     ]
   },
