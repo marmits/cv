@@ -23,17 +23,17 @@
     "profiles": [
       {
         "network": "Github",
-        "username": "github",
+        "username": "marmits",
         "url": "https://github.com/marmits"
       },
       {
         "network": "LinkedIn",
-        "username": "linkedin",
+        "username": "marmitscom",
         "url": "https://www.linkedin.com/in/marmitscom"
       },
       {
         "network": "Twitter",
-        "username": "X",
+        "username": "marmitscom",
         "url": "https://twitter.com/marmitscom"
       }
     ]
