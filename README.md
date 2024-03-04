@@ -1,7 +1,7 @@
 ## JsonResume
 - [jsonresume.org](https://jsonresume.org)
 - [npm resume](https://www.npmjs.com/package/resume)  
- `npm install resumed`
+ `npm install resume`
 - [resume-cli](https://www.npmjs.com/package/resume-cli)  
 
 ### WorKflow GITHUB JSON Resume
