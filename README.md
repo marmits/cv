@@ -1,5 +1,9 @@
 ### WorKflow GITHUB JSON Resume
 - [jsonresume.org](https://jsonresume.org)
+- [npm resume](https://www.npmjs.com/package/resume)  
+ `npm install resumed`
+- [resume-cli](https://www.npmjs.com/package/resume-cli)  
+
 
 ## GIHUB action
 
