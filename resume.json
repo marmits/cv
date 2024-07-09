@@ -50,7 +50,7 @@
       "highlights": [
         "Une application client/serveur basée sur Node.js Socket.IO / Symfony 3.4",
         "Conception et déploiement d'API avec API Platform",
-        "Des applications internes basées sur > Symfony 5.4 et Javascript",
+        "Des applications internes basées sur > Symfony (5.4 & 6.4) et Javascript",
         "Conception de bundles internes pour Symfony"
       ],
       "keywords": [
