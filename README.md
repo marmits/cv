@@ -1,8 +1,20 @@
+
+
 ## JsonResume
 - [jsonresume.org](https://jsonresume.org)
 - [npm resumed](https://www.npmjs.com/package/resumed)  
  `npm install resumed`
 - [resume-cli](https://www.npmjs.com/package/resume-cli)  
+- dependencies package.json version
+
+  [![](https://img.shields.io/github/v/release/rbardini/resumed?label=rbardini/resumed
+  )](https://github.com/rbardini/resumed)  
+  [![](https://img.shields.io/github/package-json/v/marmits/jsonresume-theme-stackoverflowmar?label=jsonresume-theme-stackoverflowmar
+  )](https://github.com/marmits/jsonresume-theme-stackoverflowmar)
+
+  
+
+
 
 ### WorKflow GITHUB JSON Resume
 
