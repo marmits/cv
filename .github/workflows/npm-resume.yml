@@ -69,21 +69,12 @@ jobs:
           node-version: 22
 
 
-
-      - name: Clean node_modules
+      - name: Debug resume.json
         run: |
-          rm -rf node_modules
-          echo "node_modules deleted"
-
-      - name: Clean lock
-        run: |
-          rm -rf package-lock.json
-          echo "package-lock.json deleted"
-
-      - name: Clean pdf
-        run: |
-          rm -rf resume.pdf
-          echo "resume.pdf deleted"
+          echo "Chemin : $(pwd)/resume.json"
+          ls -la
+          git show :resume.json > resume.remote.json
+          diff resume.json resume.remote.json || echo "Différences détectées"
 
       - name: Install
         run: npm install
