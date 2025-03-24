@@ -73,6 +73,11 @@ jobs:
           rm -rf node_modules
           echo "node_modules deleted"
 
+      - name: Clean lock
+        run: |
+          rm -rf package-lock.json
+          echo "package-lock.json deleted"
+
       - name: Install
         run: npm install
 
