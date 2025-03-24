@@ -1,15 +1,20 @@
+## UPDATE INSTALL  
+[UPDATE.md](UPDATE.md)
+
 ## JsonResume
 - [jsonresume.org](https://jsonresume.org)
 - [npm resumed](https://www.npmjs.com/package/resumed)  
  `npm install resumed`
-- [resume-cli](https://www.npmjs.com/package/resume-cli)
+- [resume-cli](https://www.npmjs.com/package/resume-cli) (non utilisé)
 
 ## dependencies package.json version
 
-  [![](https://img.shields.io/github/v/release/rbardini/resumed?label=rbardini/resumed
+  [![](https://img.shields.io/github/v/release/rbardini/resumed?label=rbardini/resumed/4.1.0
   )](https://github.com/rbardini/resumed)  
   [![](https://img.shields.io/github/package-json/v/marmits/jsonresume-theme-stackoverflowmar?label=jsonresume-theme-stackoverflowmar
-  )](https://github.com/marmits/jsonresume-theme-stackoverflowmar)
+  )](https://github.com/marmits/jsonresume-theme-stackoverflowmar)  
+  [![NPM Version](https://img.shields.io/npm/v/puppeteer?label=puppeteer/24.4.0)](https://www.npmjs.com/package/puppeteer/v/24.4.0)
+
 
 ## WorKflow GITHUB JSON Resume
 [npm-resume.yml](https://github.com/marmits/cv/blob/main/.github/workflows/npm-resume.yml)
@@ -29,11 +34,3 @@ ex: [how-to-deploy-pages-on-github-using-actions](https://medium.com/@mpaternost
 - release
 - deploy-coverage
 
-### Local use
-```
-npm install
-# Version html
-npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
-# Version pdf
-npm start
-```

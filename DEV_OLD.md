@@ -41,7 +41,8 @@ details:
 >- npm unlink <module_name> on the module’s directory to remove the global symlink.
 
 
-#### package.json:
+
+#### package.json (old version):
 ```
 {
     "dependencies": {
@@ -51,7 +52,7 @@ details:
 }
 ```
 
-#### JSON Resume PDF
+#### JSON Resume PDF (old version):
 ```
 npm install -g resume-cli
 resume export resume.pdf --theme=jsonresume-theme-stackoverflowmar
