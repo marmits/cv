@@ -3,7 +3,7 @@ import * as theme from 'jsonresume-theme-stackoverflowmar'
 import puppeteer from 'puppeteer'
 import { render } from 'resumed'
 
-const resume = JSON.parse(await fs.readFile('resume.json', 'utf-8'))
+const resume = JSON.parse(await fs.readFile('resume2.json', 'utf-8'))
 const html = await render(resume, theme)
 
 const browser = await puppeteer.launch({
