@@ -50,7 +50,7 @@
         "Une application client/serveur basée sur Node.js Socket.IO / Symfony 3.4",
         "Conception et déploiement d'API avec API Platform & Keycloak",
         "Des applications internes basées sur > Symfony (5.4 & 6.4) et Javascript",
-        "Conception de bundles internes pour Symfony",        
+        "Conception de bundles internes pour Symfony"
       ],
       "keywords": [
         "Symfony",
