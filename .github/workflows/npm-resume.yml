@@ -42,7 +42,7 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Install
-        run: npm install
+        run: npm ci
 
       - name: Test
         run: |
@@ -68,6 +68,9 @@ jobs:
         with:
           node-version: 22
 
+      - name: Nettoyage radical
+        run: find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'tmp_keep' -exec rm -rf {} +
+
       - name: Clean node_modules
         run: |
           rm -rf node_modules
@@ -84,7 +87,7 @@ jobs:
           echo "resume.pdf deleted"
 
       - name: Install
-        run: npm ci
+        run: npm install
 
       - name: shown npm
         run: npm ls        
