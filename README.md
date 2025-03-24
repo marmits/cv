@@ -29,3 +29,11 @@ ex: [how-to-deploy-pages-on-github-using-actions](https://medium.com/@mpaternost
 - release
 - deploy-coverage
 
+### Local use
+```
+npm install
+# Version html
+npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
+# Version pdf
+npm start
+```

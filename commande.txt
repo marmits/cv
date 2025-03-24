@@ -1,5 +1,4 @@
 npm install
 npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
-npm run init
 npm start
 
