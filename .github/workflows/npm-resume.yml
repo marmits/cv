@@ -84,16 +84,12 @@ jobs:
       - name: create index
         run: mv resume.html index.html
 
-
-
       - name: Convert pdf
         run: npm run start || echo "No start script found"        
 
       - name: Display event name 
         run: echo "github.event_name=${{ github.event_name }}"
-      
-      
-
+    
       - name: Upload artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3

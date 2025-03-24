@@ -32,9 +32,9 @@
         "url": "https://www.linkedin.com/in/gstolaric"
       },
       {
-        "network": "Twitter",
-        "username": "marmitscom",
-        "url": "https://twitter.com/marmitscom"
+        "network": "Discord",
+        "username": "marmits",
+        "url": "https://discord.com/channels/1337360300336349208/1337360387816816722"
       }
     ]
   },
@@ -48,13 +48,15 @@
       "location": "Reims, Grand Est, France",
       "highlights": [
         "Une application client/serveur basée sur Node.js Socket.IO / Symfony 3.4",
-        "Conception et déploiement d'API avec API Platform",
+        "Conception et déploiement d'API avec API Platform & Keycloak",
         "Des applications internes basées sur > Symfony (5.4 & 6.4) et Javascript",
-        "Conception de bundles internes pour Symfony"
+        "Conception de bundles internes pour Symfony",        
       ],
       "keywords": [
         "Symfony",
         "API Platform",
+        "Keycloak",
+        "Docker",
         "JavaScript",
         "Node.js",
         "SASS",
