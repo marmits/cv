@@ -92,7 +92,7 @@ jobs:
         run: npm run init || echo "No init script found"
 
       - name: Convert pdf
-        run: npm start || echo "No start script found"        
+        run: npm run start || echo "No start script found"        
 
       - name: Display event name 
         run: echo "github.event_name=${{ github.event_name }}"
