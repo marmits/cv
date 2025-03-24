@@ -45,7 +45,12 @@ jobs:
         run: npm ci
 
       - name: Test
-        run: npm test || echo "Tests failed" && exit 1
+        run: |
+              if [ -f package.json ] && grep -q '"test":' package.json; then
+                npm test
+              else
+                echo "No tests configured"
+              fi
 
   release:
     needs: test
