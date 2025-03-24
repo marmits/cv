@@ -84,8 +84,7 @@ jobs:
       - name: create index
         run: mv resume.html index.html
 
-      - name: Npm init
-        run: npm run init || echo "No init script found"
+
 
       - name: Convert pdf
         run: npm run start || echo "No start script found"        
