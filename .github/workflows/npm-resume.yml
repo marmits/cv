@@ -78,6 +78,11 @@ jobs:
           rm -rf package-lock.json
           echo "package-lock.json deleted"
 
+      - name: Clean pdf
+        run: |
+          rm -rf resume.pdf
+          echo "resume.pdf deleted"
+
       - name: Install
         run: npm install
 
