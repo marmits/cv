@@ -90,7 +90,7 @@ jobs:
         run: npm ls        
 
       - name: Install resume
-        run: npx resumed render resume2.json --theme jsonresume-theme-stackoverflowmar
+        run: npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
 
       - name: create index
         run: mv resume.html index.html
