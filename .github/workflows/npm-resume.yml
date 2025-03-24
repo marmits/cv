@@ -84,7 +84,7 @@ jobs:
           echo "resume.pdf deleted"
 
       - name: Install
-        run: npm install
+        run: npm ci
 
       - name: shown npm
         run: npm ls        
