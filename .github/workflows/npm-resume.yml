@@ -69,12 +69,8 @@ jobs:
           node-version: 22
 
 
-      - name: Debug resume.json
-        run: |
-          echo "Chemin : $(pwd)/resume.json"
-          ls -la
-          git show :resume.json > resume.remote.json
-          diff resume.json resume.remote.json || echo "Différences détectées"
+      - name: Synchroniser resume.json
+        run: git checkout origin/main -- resume.json
 
       - name: Install
         run: npm install
