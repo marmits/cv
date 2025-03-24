@@ -11,17 +11,17 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
+  
 permissions:                    # Global permissions configuration starts here
   contents: write                # 'read' access to repository contents
-  pull-requests: write
+  pull-requests: write   
   id-token: write
 
-
+  
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  test:
+  test: 
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -57,7 +57,7 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-
+     
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -67,7 +67,7 @@ jobs:
         run: npm install
 
       - name: shown npm
-        run: npm ls
+        run: npm ls        
 
       - name: Install resume
         run: npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
@@ -76,11 +76,11 @@ jobs:
         run: npm install -g resume-cli
 
       - name: Convert pdf
-        run: resume export resume.pdf --theme=jsonresume-theme-stackoverflowmar
+        run: resume export resume.pdf --theme=jsonresume-theme-stackoverflowmar        
 
-      - name: Display event name
+      - name: Display event name 
         run: echo "github.event_name=${{ github.event_name }}"
-
+      
       - name: create index
         run: mv resume.html index.html
 
@@ -90,7 +90,7 @@ jobs:
         with:
           path: '.'
 
-
+      
   deploy-coverage:
     if: github.ref == 'refs/heads/main'
     needs: release
