@@ -68,8 +68,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Nettoyage radical
-        run: find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name 'tmp_keep' -exec rm -rf {} +
+
 
       - name: Clean node_modules
         run: |
