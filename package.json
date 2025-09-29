@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "jsonresume-theme-stackoverflowmar": "github:marmits/jsonresume-theme-stackoverflowmar#semver:^2.0",
-    "puppeteer": "^24.4.0",
-    "resumed": "^4.1.0"
+    "puppeteer": "^24.22.3",
+    "resumed": "^6.1.0"
   },
   "name": "jsonresumemarmits",
   "version": "2.0.0",
