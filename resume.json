@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Geoffroy Stolaric",
-    "label": "Développeur Full‑Stack 🐳 (Php | JavaScript | Docker )",
+    "label": "Développeur Full-Stack PHP / JavaScript.",
     "image": "",
     "email": "geoffroy.stolaric@gmail.com",
     "phone": "+33623495457",
     "url": "https://marmits.github.io",
-    "summary": "✅ Expert Symfony/API Platform | Frontend JavaScript avancé | Docker.\nJ'évolue et je code dans le domaine web depuis 1998.\nMon expérience couvre de multiples activités comme les SS2I, la publicité, l'e-commerce, l'industrie, le secteur alimentaire en passant par la santé.\nJ'ai également exploré de nombreux domaines comme le multimédia, la maintenance, les déploiements, la sécurité, le travail collaboratif, les API.\nMon stack technique est orienté essentiellement dans l'univers open source.\nMon environnement applicatif tourne autour de Linux \uD83D\uDC27, PHP (Symfony, Zend), le SQL, JavaScript et ses bibiothèques.\nJ'apprécie les défis, le travail en équipe, trouver et mettre en oeuvre des solutions, optimiser et exploiter les standards.\nJ'essaie de toujours améliorer mes connaissances et mes compétences afin de maîtriser au maximum mon sujet tout en m'investissant pleinement avec les outils modernes.",
+    "summary": "✅ Expert Symfony/API Platform | Frontend JavaScript avancé | Docker 🐳.\nJ'évolue et je code dans le domaine web depuis 1998.\nMon expérience couvre de multiples activités comme les SS2I, la publicité, l'e-commerce, l'industrie, le secteur alimentaire en passant par la santé.\nJ'ai également exploré de nombreux domaines comme le multimédia, la maintenance, les déploiements, la sécurité, le travail collaboratif, les API.\nMon stack technique est orienté essentiellement dans l'univers open source.\nMon environnement applicatif tourne autour de Linux \uD83D\uDC27, PHP (Symfony, Zend), le SQL, JavaScript et ses bibiothèques.\nJ'apprécie les défis, le travail en équipe, trouver et mettre en oeuvre des solutions, optimiser et exploiter les standards.\nJ'essaie de toujours améliorer mes connaissances et mes compétences afin de maîtriser au maximum mon sujet tout en m'investissant pleinement avec les outils modernes.",
     "location": {
       "address": "8 rue du château",
       "postalCode": "02190",
