@@ -53,7 +53,7 @@
         "Mise en place du backchannel logout et Single Sign-On (SSO).",
         "Configuration des clients, realms et policies pour applications internes.",
         "Conception et évolution des applications internes basées sur > Symfony (5.4 & 6.4) et Javascript (intégration React au fur et à mesure)", 
-        "Conception et développement de bundles Symfony internes afin de mutualiser la logique métier et les composants techniques, pour accélérer la création de nouvelles applications et simplifier la maintenance des projets existants.",        
+        "Conception et développement de bundles Symfony internes afin de mutualiser la logique métier et les composants techniques, pour accélérer la création de nouvelles applications et simplifier la maintenance des projets existants."
       ],
       "keywords": [
         "Symfony",
