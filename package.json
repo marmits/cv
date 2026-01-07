@@ -7,8 +7,8 @@
     "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
-    "jsonresume-theme-stackoverflowmar": "github:marmits/jsonresume-theme-stackoverflowmar#v2.0.1",
-    "puppeteer": "^24.22.3",
+    "jsonresume-theme-stackoverflowmar": "github:marmits/jsonresume-theme-stackoverflowmar#v2.0.2",
+    "puppeteer": "^24.34.0",
     "resumed": "^6.1.0"
   },
   "name": "jsonresumemarmits",
@@ -16,5 +16,5 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Build JSON Resume HTML/PDF with StackOverflowMar theme"
 }
