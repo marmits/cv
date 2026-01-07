@@ -1,20 +1,23 @@
-## UPDATE INSTALL  
-[UPDATE.md](UPDATE.md)
-
 ## JsonResume
 - [jsonresume.org](https://jsonresume.org)
 - [npm resumed](https://www.npmjs.com/package/resumed)  
  `npm install resumed`
 - [resume-cli](https://www.npmjs.com/package/resume-cli) (non utilisé)
 
-## dependencies package.json version
+## Dependencies package.json version
+[![NodeJs Version](https://img.shields.io/npm/v/node?label=node)](https://nodejs.org/fr/blog/release/v24.12.0)  
+[![](https://img.shields.io/github/v/release/rbardini/resumed?label=rbardini/resumed)](https://github.com/rbardini/resumed)   
+[![NPM Version](https://img.shields.io/npm/v/puppeteer?label=puppeteer)](https://www.npmjs.com/package/puppeteer)  
+[![](https://img.shields.io/github/package-json/v/marmits/jsonresume-theme-stackoverflowmar?label=jsonresume-theme-stackoverflowmar)](https://github.com/marmits/jsonresume-theme-stackoverflowmar)
 
-  [![](https://img.shields.io/github/v/release/rbardini/resumed?label=rbardini/resumed/4.1.0)](https://github.com/rbardini/resumed)  
-  [![](https://img.shields.io/github/package-json/v/marmits/jsonresume-theme-stackoverflowmar?label=jsonresume-theme-stackoverflowmar)](https://github.com/marmits/jsonresume-theme-stackoverflowmar)  
-  [![NPM Version](https://img.shields.io/npm/v/puppeteer?label=puppeteer/24.4.0)](https://www.npmjs.com/package/puppeteer/v/24.4.0)
 
+### 🐋 FULL INSTALL / DOC
+voir [Repo DOCKER nodetools](https://github.com/marmits/nodetools/tree/main/app/cvmarmits)
 
-## WorKflow GITHUB JSON Resume
+### DOC INSTALL LOCAL
+[DOC.md](DOC.md)
+
+### WorKflow GITHUB JSON Resume
 - [npm-resume.yml](https://github.com/marmits/cv/blob/main/.github/workflows/npm-resume.yml)
 - [WORKFLOW SSH](WORKFLOWSSH.md)
 
