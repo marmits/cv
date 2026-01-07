@@ -1,120 +1,143 @@
-# This is a basic workflow to help you get started with Actions
+
 name: CI
 
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
-  #pull_request:
-  #  branches: [ "main" ]
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: ["main"]
   workflow_dispatch:
-  
-permissions:                    # Global permissions configuration starts here
-  contents: write                # 'read' access to repository contents
-  pull-requests: write   
+
+permissions:
+  contents: write
+  pull-requests: write
   id-token: write
 
-  
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  test: 
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node: [24]
     name: Test on Node.js ${{ matrix.node }}
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: authentification
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
+      # Option A: utiliser Corepack pour pnpm
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
+          cache: 'npm' # cache npm pour npm ci (les jobs pnpm auront leur propre cache si on les utilise)
 
-      - name: Install
+      - name: Enable Corepack & activate pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
+          pnpm -v
+
+      # Si ta dépendance GitHub privée nécessite SSH, décommente :
+      # - name: Authenticate SSH
+      #   uses: webfactory/ssh-agent@v0.9.0
+      #   with:
+      #     ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      # IMPORTANT : le thème Git exécute "pnpm run build" en prepare,
+      # donc il faut pnpm présent même si on utilise npm pour installer.
+      - name: Install dependencies (npm ci)
         run: npm ci
 
-      - name: Test
+      - name: Tests (facultatifs)
         run: |
-              if [ -f package.json ] && grep -q '"test":' package.json; then
-                npm test
-              else
-                echo "No tests configured"
-              fi
+          if [ -f package.json ] && grep -q '"test":' package.json; then
+            npm test
+          else
+            echo "No tests configured"
+          fi
 
   release:
     needs: test
     runs-on: ubuntu-latest
     name: Release
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           persist-credentials: false
           fetch-depth: 0
-     
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: 'npm'
 
+      - name: Enable Corepack & activate pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
+          pnpm -v
 
+      # Si la dépendance GitHub nécessite SSH, réactive l'agent ici aussi :
+      # - name: Authenticate SSH
+      #   uses: webfactory/ssh-agent@v0.9.0
+      #   with:
+      #     ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      # Synchroniser resume.json depuis main (préserve le fichier tel que sur la branche distante)
       - name: Synchroniser resume.json
         run: git checkout origin/main -- resume.json
 
       - name: Install
         run: npm install
 
-      - name: shown npm
-        run: npm ls        
+        # (option) si tu veux profiter du cache pnpm au lieu de npm, tu peux remplacer par :
+        # uses: pnpm/action-setup@v2
+        # with:
+        #   version: latest
+        # - name: Install (pnpm)
+        #   run: pnpm install --frozen-lockfile=false
 
-      - name: Install resume
+      - name: Show dependency tree
+        run: npm ls || true
+
+      - name: Render HTML with resumed + StackOverflowMar theme
         run: npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
 
-      - name: create index
+      - name: Create index.html
         run: mv resume.html index.html
 
-      - name: Convert pdf
-        run: npm run start || echo "No start script found"        
+      - name: Convert PDF
+        run: |
+          if npm run start --silent; then
+            echo "PDF conversion done via start script"
+          else
+            echo "No start script or conversion failed"
+            exit 1
+          fi
 
-      - name: Display event name 
+      - name: Display event name
         run: echo "github.event_name=${{ github.event_name }}"
-    
+
       - name: Upload artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
-      
   deploy-coverage:
     if: github.ref == 'refs/heads/main'
     needs: release
-
     permissions:
       pages: write
       id-token: write
-
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 
-          
-          
-     
