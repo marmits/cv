@@ -1,27 +1,38 @@
-Générer le CV en local.
+# Génération du CV
 
-### Prérequis
-Node 24+ avec Corepack et pnpm.
+## Prérequis
 
-### Local use
-```
-corepack enable
-corepack prepare pnpm@latest --activate
-pnpm install
+- Node.js 24 ou plus récent, npm et pnpm `12.16.1` (le thème utilise pnpm dans son script `prepare`).
+- Le fichier `resume.json` à la racine du projet.
+- Un accès Internet pour installer les dépendances et télécharger Chrome via Puppeteer.
+- Le thème `jsonresume-theme-stackoverflowmar` version `2.0.2`.
+
+## Installation
+
+À la racine du projet :
+
+```sh
+npm ci
 ```
 
-#### Version html
-```
+## Génération
+
+Générer le HTML seul (`resume.html`) :
+
+```sh
 npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
 ```
-#### Version pdf
-Fork de : [with-pdf-export](https://github.com/rbardini/resumed/tree/main/examples/with-pdf-export) => [voir index.js](index.js)
-```
-pnpm start
+
+Générer le PDF seul (`resume.pdf`) :
+
+```sh
+npm start
 ```
 
-### Commandes rapides
+Générer les deux fichiers pour le site (`index.html` et `resume.pdf`) :
+
+```sh
+npm run build
 ```
-pnpm install git+https://github.com/marmits/jsonresume-theme-stackoverflowmar  
-npx resumed render resume.json --theme jsonresume-theme-stackoverflowmar
-```
+
+Après modification de `resume.json`, relancer `npm run build`.

@@ -3,6 +3,7 @@ node_modules/
 resume.html
 resume.pdf
 package-lock.json
+dist/
 
 index.html
 cv/index.html
