@@ -5,6 +5,7 @@
 - Node.js 26 ou plus récent et npm.
 - Le fichier `resume.json` à la racine du projet.
 - Un accès Internet pour installer les dépendances et télécharger Chrome via Puppeteer.
+- Une police emoji (Noto Color Emoji) pour conserver les emojis dans le PDF ; elle est installée dans le container NodeTools et par le workflow GitHub.
 - Le thème `jsonresume-theme-stackoverflowmar` en version `v2.0.5`, installé depuis GitHub. Le thème ne nécessite pas pnpm. Pour le développer localement, voir ci-dessous.
 
 ## Installation

@@ -24,6 +24,11 @@ jobs:
           node-version: 26
           cache: npm
 
+      - name: Install emoji font for PDF
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends fonts-noto-color-emoji
+
       - name: Cache Puppeteer browser
         uses: actions/cache@v5
         with:
