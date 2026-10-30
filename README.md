@@ -15,7 +15,7 @@ La commande produit `index.html` et `resume.pdf`. Les prérequis et les commande
 
 ## GitHub Actions et publication
 
-Le workflow [`.github/workflows/npm-resume.yml`](.github/workflows/npm-resume.yml) utilise directement un runner Ubuntu avec Node.js 24 ; il ne construit pas d’image Docker. Il installe les dépendances avec `npm ci`, puis lance `npm run build`.
+Le workflow [`.github/workflows/npm-resume.yml`](.github/workflows/npm-resume.yml) utilise directement un runner Ubuntu avec Node.js 26 LTS ; il ne construit pas d’image Docker. Il installe les dépendances avec `npm ci`, puis lance `npm run build`.
 
 Les pushes et pull requests vers `dev` et `main` déclenchent le build. Seule la branche `main` publie sur GitHub Pages : `index.html`, `resume.pdf` et `resume.json`.
 
@@ -29,9 +29,9 @@ Le thème est récupéré depuis GitHub en HTTPS ; aucune clé SSH n’est néce
 
 ## Dépendances et versions
 
-Le projet utilise Node.js 24. Les badges npm et GitHub ci-dessous indiquent les versions publiées en amont, qui peuvent différer des versions verrouillées dans `package-lock.json`.
+Le projet utilise Node.js 26 LTS. Les badges npm et GitHub ci-dessous indiquent les versions publiées en amont, qui peuvent différer des versions verrouillées dans `package-lock.json`.
 
-[![Node.js 24](https://img.shields.io/badge/Node.js-24-339933?logo=node.js&logoColor=white)](https://nodejs.org/en/about/previous-releases)
+[![Node.js 26 LTS](https://img.shields.io/badge/Node.js-26_LTS-339933?logo=node.js&logoColor=white)](https://nodejs.org/en/about/previous-releases)
 
 [![resumed](https://img.shields.io/github/v/release/rbardini/resumed?label=rbardini%2Fresumed)](https://github.com/rbardini/resumed)
 

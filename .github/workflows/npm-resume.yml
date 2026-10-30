@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
-          node-version: 24
+          node-version: 26
           cache: npm
 
       # Le thème installé depuis Git lance "pnpm run build" dans son prepare.
@@ -37,9 +37,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/puppeteer
-          key: ${{ runner.os }}-puppeteer-node24-${{ hashFiles('package-lock.json') }}
+          key: ${{ runner.os }}-puppeteer-node26-${{ hashFiles('package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-puppeteer-node24-
+            ${{ runner.os }}-puppeteer-node26-
 
       - name: Install dependencies
         run: npm ci
