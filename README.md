@@ -1,6 +1,6 @@
 # CV Marmits
 
-Ce dépôt génère le CV à partir de `resume.json`, en HTML et en PDF avec le thème `jsonresume-theme-stackoverflowmar` version `v2.0.3`. La source locale du thème peut être reliée avec `npm link` pour la développer.
+Ce dépôt génère le CV à partir de `resume.json`, en HTML et en PDF avec le thème `jsonresume-theme-stackoverflowmar` version `v2.0.5`. La source locale du thème peut être reliée avec `npm link` pour la développer.
 
 ## Utilisation locale
 

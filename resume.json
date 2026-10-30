@@ -7,7 +7,7 @@
     "email": "geoffroy.stolaric@gmail.com",
     "phone": "+33623495457",
     "url": "https://marmits.github.io",
-    "summary": "### ✅ Expert Symfony/API Platform | Frontend JavaScript avancé | Docker 🐳.\nJ'évolue et je code dans le domaine web depuis 1998.\nMon expérience couvre de multiples activités comme les SS2I, la publicité, l'e-commerce, l'industrie, le secteur alimentaire en passant par la santé.\nJ'ai également exploré de nombreux domaines comme le multimédia, la maintenance, les déploiements, la sécurité, le travail collaboratif, les API.\nMon stack technique est orienté essentiellement dans l'univers open source.\nMon environnement applicatif tourne autour de Linux 🐧, PHP (Symfony, Zend), le SQL, JavaScript et ses bibiothèques.\nJ'apprécie les défis, le travail en équipe, trouver et mettre en oeuvre des solutions, optimiser et exploiter les standards.\nJ'essaie de toujours améliorer mes connaissances et mes compétences afin de maîtriser au maximum mon sujet tout en m'investissant pleinement avec les outils modernes.",
+    "summary": "### ✅ Expert Symfony/API Platform | Frontend JavaScript avancé | Docker 🐳.\nDéveloppeur web depuis 1998, j’ai travaillé dans des secteurs variés, de la publicité et du e-commerce à l’industrie et à la santé.\nMon parcours couvre aussi le multimédia, la maintenance, les déploiements, la sécurité, le travail collaboratif et les API.\n\nMon environnement, principalement open source, s’appuie sur Linux, PHP (Symfony, Zend), SQL et JavaScript.\nJ’aime relever des défis en équipe, trouver des solutions et optimiser l’existant en m’appuyant sur les standards.\n\nJ’intègre les approches de développement assisté par l’IA et de programmation agentique, notamment avec OpenAI Codex.\nJ’utilise des agents IA pour accompagner l’analyse, la conception, l’implémentation, le refactoring, les tests, la documentation et l’automatisation.\nCurieux des évolutions technologiques, je veille à la qualité du code, à la mutualisation des composants et à l’amélioration continue.",
     "location": {
       "address": "8 rue du château",
       "postalCode": "02190",
@@ -47,18 +47,13 @@
       "url": "https://maximo.fr",
       "location": "Reims, Grand Est, France",
       "highlights": [
-        "Gestion du centre d'appels client/serveur basé sur Node.js Socket.IO / Symfony 3.4",
-        "Intégration complète pour l’authentification et l’autorisation (OAuth2/OIDC). avec API Platform 4 & Keycloak 26",
-        "Gestion des rôles, scopes et permissions pour des API sécurisées.",
-        "Mise en place du backchannel logout et Single Sign-On (SSO).",
-        "Configuration des clients, realms et policies pour applications internes.",
-        "Conception et évolution des applications internes basées sur > Symfony (5.4 & 6.4) et Javascript (intégration React au fur et à mesure)", 
-        "Conception et développement de bundles Symfony internes afin de mutualiser la logique métier et les composants techniques, pour accélérer la création de nouvelles applications et simplifier la maintenance des projets existants."
+        "Conception, développement et évolution d’applications internes pour le commerce de détail, du back-end au front-end. Je participe à la conception d’API métier qui exposent au site e-commerce les données gérées par les applications internes du SI et facilitent les échanges entre les outils. Mes contributions couvrent également les outils de centre d’appels (Node.js, Socket.IO, Symfony), la sécurisation des API et des parcours d’authentification (OAuth2/OIDC, Keycloak, SSO, rôles et permissions), ainsi que l’évolution d’applications Symfony et JavaScript avec l’intégration progressive de React. Je développe des bundles Symfony réutilisables pour mutualiser la logique métier et les composants techniques, faciliter la maintenance et accélérer la création d’applications.",
+        "Contribution au projet RFE (Réforme de la Facturation Électronique) : conception et évolution d’une application métier Symfony/React et de son API Symfony/API Platform, intégration des échanges avec SAP et les plateformes agréées, génération et validation des flux XML de facturation et de reporting."
       ],
       "keywords": [
-        "Symfony",
+        "Symfony (3.4 5.4 6.4 7.4)",
         "Docker",
-        "API Platform",
+        "API Platform (3/4)",
         "Keycloak",        
         "JavaScript",
         "Reac",
@@ -304,6 +299,14 @@
         "Magento"
       ],
       "name": "e-commerce"
+    },
+    {
+      "name": "IA & Développement agentique",
+      "keywords": [
+        "OpenAI Codex",
+        "Agents IA",
+        "Programmation agentique"
+      ]
     }
   ],
   "languages": [
