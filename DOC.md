@@ -2,10 +2,10 @@
 
 ## Prérequis
 
-- Node.js 26 ou plus récent, npm et pnpm `12.16.1` (le thème utilise pnpm dans son script `prepare`).
+- Node.js 26 ou plus récent et npm.
 - Le fichier `resume.json` à la racine du projet.
 - Un accès Internet pour installer les dépendances et télécharger Chrome via Puppeteer.
-- Le thème `jsonresume-theme-stackoverflowmar` version `2.0.2`.
+- Le thème `jsonresume-theme-stackoverflowmar` en version `v2.0.3`, installé depuis GitHub. Le thème ne nécessite pas pnpm. Pour le développer localement, voir ci-dessous.
 
 ## Installation
 
@@ -14,6 +14,10 @@
 ```sh
 npm ci
 ```
+
+Pour utiliser la source locale du thème pendant son développement, installe ses dépendances dans le dossier du thème avec `npm install --no-package-lock`, puis exécute `npm link` dans le thème et `npm link jsonresume-theme-stackoverflowmar` dans cette application. Refais le lien après `npm ci`.
+
+Le workflow GitHub utilise Node.js 26 et le thème `v2.0.3`. Il lance `npm ci`, les vérifications du projet et `npm run build`, puis publie le site sur GitHub Pages lors d’un push sur `main`. Docker et pnpm ne sont pas nécessaires.
 
 ## Génération
 

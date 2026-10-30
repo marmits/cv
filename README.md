@@ -1,10 +1,10 @@
 # CV Marmits
 
-Ce dépôt génère le CV à partir de `resume.json`, en HTML et en PDF, avec le thème `jsonresume-theme-stackoverflowmar` version `2.0.2`.
+Ce dépôt génère le CV à partir de `resume.json`, en HTML et en PDF avec le thème `jsonresume-theme-stackoverflowmar` version `v2.0.3`. La source locale du thème peut être reliée avec `npm link` pour la développer.
 
 ## Utilisation locale
 
-Le dépôt est monté dans le container NodeTools sous `/app/cvmarmits`. Depuis ce répertoire :
+Le dépôt est monté dans le conteneur NodeTools sous `/app/cvmarmits`. Depuis ce répertoire :
 
 ```sh
 npm ci
@@ -17,7 +17,7 @@ La commande produit `index.html` et `resume.pdf`. Les prérequis et les commande
 
 Le workflow [`.github/workflows/npm-resume.yml`](.github/workflows/npm-resume.yml) utilise directement un runner Ubuntu avec Node.js 26 LTS ; il ne construit pas d’image Docker. Il installe les dépendances avec `npm ci`, puis lance `npm run build`.
 
-Les pushes et pull requests vers `dev` et `main` déclenchent le build. Seule la branche `main` publie sur GitHub Pages : `index.html`, `resume.pdf` et `resume.json`.
+Les pushes vers `main` déclenchent le build et la publication GitHub Pages : `index.html`, `resume.pdf` et `resume.json`.
 
 Le thème est récupéré depuis GitHub en HTTPS ; aucune clé SSH n’est nécessaire. Voir [WORKFLOWSSH.md](WORKFLOWSSH.md) pour le détail de cette dépendance.
 

@@ -24,12 +24,6 @@ jobs:
           node-version: 26
           cache: npm
 
-      # Le thème installé depuis Git lance "pnpm run build" dans son prepare.
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v6.1.0
-        with:
-          version: 12.16.1
-
       - name: Cache Puppeteer browser
         uses: actions/cache@v5
         with:
@@ -37,6 +31,10 @@ jobs:
           key: ${{ runner.os }}-puppeteer-node26-${{ hashFiles('package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-puppeteer-node26-
+
+      # Les package-lock.json résolvent le thème public en SSH ; force HTTPS sans clé privée.
+      - name: Use HTTPS for public Git dependencies
+        run: git config --global url."https://github.com/".insteadOf "ssh://git@github.com/"
 
       - name: Install dependencies
         run: npm ci
